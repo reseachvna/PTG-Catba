@@ -88,25 +88,20 @@
         let dataCanHo = [];
 
         window.onload = function() {
-            const statusText = document.getElementById('data-status');
-            fetch('Data.json')
+            // Thêm đuôi "?v=1" để ép trình duyệt không dùng cache cũ
+            fetch('Data.json?v=' + new Date().getTime())
                 .then(response => {
                     if (!response.ok) throw new Error("Lỗi mạng 404");
                     return response.json();
                 })
                 .then(data => {
                     dataCanHo = data;
-                    if(statusText) {
-                        statusText.innerText = "Đã kết nối thành công với kho dữ liệu chuẩn!";
-                        statusText.style.color = "green";
-                    }
+                    document.getElementById('data-status').innerText = "Đã kết nối thành công với kho dữ liệu (Phiên bản chống Cache)!";
+                    document.getElementById('data-status').style.color = "green";
                 })
                 .catch(error => {
-                    if(statusText) {
-                        statusText.innerText = "LỖI: Không kết nối được dữ liệu!";
-                        statusText.style.color = "red";
-                    }
-                    console.error("Lỗi Fetch:", error);
+                    document.getElementById('data-status').innerText = "LỖI: Không kết nối được dữ liệu!";
+                    document.getElementById('data-status').style.color = "red";
                 });
         };
 
@@ -114,13 +109,32 @@
             return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(number);
         };
 
+        // Hàm hỗ trợ tìm đúng tên cột dù có bị dính khoảng trắng
+        const layGiaTriCot = (item, tenCotCanTim) => {
+            const keyThucTe = Object.keys(item).find(k => k.trim() === tenCotCanTim);
+            return keyThucTe ? item[keyThucTe] : null;
+        };
+
         window.xuLyTinhGia = function() {
             const tenKhachHang = document.getElementById('fullname').value;
             const maCanHoNhap = document.getElementById('apartment-code').value.toUpperCase().trim();
             const phuongAn = document.getElementById('payment-method').value;
 
-            if (dataCanHo.length === 0) {
-                alert("Hệ thống chưa tải được dữ liệu. Hãy đợi dòng trạng thái báo màu xanh!");
+            if (!dataCanHo) {
+                alert("Hệ thống chưa tải được dữ liệu.");
+                return;
+            }
+
+            // --- BƯỚC XỬ LÝ DỮ LIỆU ĐA NĂNG ---
+            let dataList = dataCanHo;
+            // Nếu data là dạng Object {"Sheet1": [...] } thì bóc lấy mảng bên trong
+            if (!Array.isArray(dataList)) {
+                const keys = Object.keys(dataList);
+                dataList = dataList[keys[0]]; 
+            }
+
+            if (!dataList || dataList.length === 0) {
+                alert("File Data.json rỗng hoặc sai cấu trúc!");
                 return;
             }
 
@@ -129,26 +143,40 @@
                 return;
             }
 
-            // Đồng bộ: Tìm kiếm theo trường ma_can
-            const thongTinCanHo = dataCanHo.find(item => {
-                return item.ma_can && item.ma_can.toUpperCase().trim() === maCanHoNhap;
+            // --- TÌM KIẾM THÔNG MINH (Bỏ qua mọi khoảng trắng thừa) ---
+            const thongTinCanHo = dataList.find(item => {
+                const giaTriMaCan = layGiaTriCot(item, "ma_can");
+                if (giaTriMaCan) {
+                    return String(giaTriMaCan).toUpperCase().trim() === maCanHoNhap;
+                }
+                return false;
             });
 
+            // NẾU TÌM KHÔNG THẤY: HIỂN THỊ LUÔN DỮ LIỆU ĐANG BỊ LỖI CHO NGƯỜI DÙNG XEM
             if (!thongTinCanHo) {
-                alert("Không tìm thấy mã căn: " + maCanHoNhap + " trong hệ thống!");
+                const mauJson = JSON.stringify(dataList[0], null, 2);
+                alert("Không tìm thấy mã: " + maCanHoNhap + "\n\n--- THÔNG TIN GỠ LỖI ---\nDữ liệu đầu tiên mà web đọc được là:\n" + mauJson + "\n\nHãy kiểm tra xem chữ 'ma_can' có viết đúng không nhé!");
                 document.getElementById('result-box').style.display = 'none';
                 return;
             }
 
+            // Lấy dữ liệu an toàn
+            const giaGoc = Number(layGiaTriCot(thongTinCanHo, "gia_tien")) || 0;
+            const loaiCan = layGiaTriCot(thongTinCanHo, "Type") || "Không xác định";
+            const dienTich = layGiaTriCot(thongTinCanHo, "dien_tich") || 0;
+
+            if(giaGoc === 0) {
+                alert("Lỗi: Không đọc được cột 'gia_tien'. Hãy đảm bảo nó là số nguyên (không có dấu phẩy) trong file JSON!");
+                return;
+            }
+
+            // Tính toán
             let tyLeChietKhau = 0; 
             if (phuongAn === '30-ngay') tyLeChietKhau = 0.10;
             else if (phuongAn === 'tts-50') tyLeChietKhau = 0.05;
             else if (phuongAn === '12-thang') tyLeChietKhau = 0.02;
             else if (phuongAn === '36-thang') tyLeChietKhau = 0;
 
-            // Đồng bộ: Lấy giá gốc từ trường gia_tien
-            const giaGoc = thongTinCanHo.gia_tien;
-            
             const giaTriChietKhau = giaGoc * tyLeChietKhau;
             const giaSauChietKhau = giaGoc - giaTriChietKhau;
 
@@ -161,11 +189,11 @@
             const tyLeMoiDot = 100 / soDot;
             const tienMoiDot = giaSauChietKhau / soDot;
 
-            // Đồng bộ: Đẩy dữ liệu ra giao diện theo đúng tên cột mới
+            // In ra giao diện
             document.getElementById('res-name').innerText = tenKhachHang || "Khách lẻ";
-            document.getElementById('res-code').innerText = thongTinCanHo.ma_can;
-            document.getElementById('res-type').innerText = thongTinCanHo.Type || "Không xác định"; // Sửa thành Type
-            document.getElementById('res-area').innerText = thongTinCanHo.dien_tich + " m2"; 
+            document.getElementById('res-code').innerText = layGiaTriCot(thongTinCanHo, "ma_can");
+            document.getElementById('res-type').innerText = loaiCan;
+            document.getElementById('res-area').innerText = dienTich + " m2"; 
             
             document.getElementById('res-original-price').innerText = formatVND(giaGoc);
             document.getElementById('res-discount-rate').innerText = (tyLeChietKhau * 100) + "%";
