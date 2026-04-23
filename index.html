@@ -42,20 +42,20 @@
         #result-box { display: none; margin-top: 40px; padding-top: 30px; border-top: 2px solid #edf2f7; text-align: left; }
         .result-header { color: #1a365d; margin: 0; font-size: 22px; }
         .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 25px; }
-        .info-item { display: flex; justify-content: space-between; border-bottom: 1px dashed #ccc; padding-bottom: 5px; }
+        .info-item { display: flex; justify-content: space-between; border-bottom: 1px dashed #ccc; padding-bottom: 5px; align-items: center;}
         .info-item span { color: #718096; }
         .info-item strong { color: #2d3748; }
         
         .price-highlight { background: #fff5f5; padding: 20px; border-radius: 8px; border: 1px solid #feb2b2; margin-bottom: 30px; }
-        .final-price { color: #e53e3e; font-size: 28px; font-weight: bold; }
+        .final-price { color: #e53e3e; font-size: 22px; font-weight: bold; } /* Đã giảm font chữ xuống 22px */
         .discount-detail { font-size: 15px; color: #4a5568; margin-top: 10px; padding-left: 20px; border-left: 3px solid #1a365d; }
 
         .milestone-container { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
         .milestone { background: #ebf8ff; padding: 15px; border-left: 5px solid #3182ce; border-radius: 4px; }
         
         table.schedule-table { width: 100%; border-collapse: collapse; margin-top: 15px; background: #fff; }
-        .schedule-table th { background: #1a365d; color: white; padding: 12px; border: 1px solid #1a365d; text-align: center; }
-        .schedule-table td { border: 1px solid #cbd5e0; padding: 12px; vertical-align: middle; }
+        .schedule-table th { background: #1a365d; color: white; padding: 12px; border: 1px solid #1a365d; text-align: center; font-size: 15px;}
+        .schedule-table td { border: 1px solid #cbd5e0; padding: 12px; vertical-align: middle; font-size: 15px;}
         .schedule-table tr:nth-child(even) { background: #f7fafc; }
         .td-center { text-align: center; }
         .td-right { text-align: right; }
@@ -88,14 +88,14 @@
     </div>
 
     <div class="mode-selector no-print">
-        <label><input type="radio" name="calc-mode" value="auto" checked onchange="toggleMode()"> TÍNH TỰ ĐỘNG </label>
+        <label><input type="radio" name="calc-mode" value="auto" checked onchange="toggleMode()"> TÍNH TỰ ĐỘNG (FLOW CHUẨN)</label>
         <label><input type="radio" name="calc-mode" value="custom" onchange="toggleMode()"> TÙY CHỈNH NGOẠI GIAO</label>
     </div>
 
     <div class="form-grid no-print">
         <div class="form-group">
             <label>Tên khách hàng</label>
-            <input type="text" id="fullname" placeholder="RD FLV">
+            <input type="text" id="fullname" placeholder="Họ và tên khách hàng...">
         </div>
         <div class="form-group">
             <label>Mã căn hộ</label>
@@ -168,18 +168,18 @@
         </div>
 
         <div class="price-highlight">
-            <div class="info-item" style="border:none"><span>Giá bán niêm yết:</span> <strong id="out-price-raw" style="font-size: 18px;"></strong></div>
+            <div class="info-item" style="border:none"><span>Giá bán niêm yết (bao gồm VAT):</span> <strong id="out-price-raw" style="font-size: 18px;"></strong></div>
             
             <div style="margin-top: 10px; margin-bottom: 5px; font-weight: bold; color: #2d3748;">Chi tiết áp dụng chiết khấu (Chiết khấu theo thứ tự trừ lùi):</div>
             <div id="discount-breakdown" class="discount-detail"></div>
             
-            <div class="info-item" style="border:none; margin-top: 25px; border-top: 2px dashed #feb2b2; padding-top: 15px;">
-                <span style="font-size: 20px; color: #333; font-weight: bold;">GIÁ SAU CHIẾT KHẤU:</span>
+            <div class="info-item" style="border:none; margin-top: 20px; border-top: 2px dashed #feb2b2; padding-top: 15px; align-items: center;">
+                <span style="font-size: 18px; color: #333; font-weight: bold;">GIÁ SAU CHIẾT KHẤU:</span>
                 <span class="final-price" id="out-price-final"></span>
             </div>
         </div>
 
-        <h3 style="color: #1a365d; margin-bottom: 10px;">TIẾN ĐỘ THANH TOÁN CHI TIẾT</h3>
+        <h3 style="color: #1a365d; margin-bottom: 10px; font-size: 18px;">TIẾN ĐỘ THANH TOÁN CHI TIẾT</h3>
         <div id="schedule-content"></div>
 
         <div style="margin-top: 30px; text-align: right; font-style: italic; color: #666; font-size: 14px;">
@@ -322,6 +322,9 @@
 
         if (breakdown === "") breakdown = "<i>Không áp dụng mức chiết khấu nào.</i>";
 
+        // LÀM TRÒN ĐẾN HÀNG NGHÌN TRƯỚC KHI HIỂN THỊ VÀ TÍNH TIẾN ĐỘ
+        currentPrice = Math.round(currentPrice / 1000) * 1000;
+
         document.getElementById('out-name').innerText = document.getElementById('fullname').value || "Khách lẻ";
         document.getElementById('out-code').innerText = codeInput;
         document.getElementById('out-type').innerText = layGiaTriCot(apt, "Type") || layGiaTriCot(apt, "loai_can") || "Không xác định";
@@ -440,6 +443,9 @@
         
         steps.forEach((s, i) => {
             let amount = finalPrice * s.p;
+            // Làm tròn từng đợt để khớp với tổng giá đã làm tròn
+            amount = Math.round(amount / 1000) * 1000;
+
             let note = (i === 0) ? `<br><div style="font-size: 13px; color: #4a5568; margin-top: 5px;">(Lưu ý: Đã bao gồm 100tr cọc.<br>Khách chuyển thêm: <b>${formatMoney(amount - deposit)}</b>)</div>` : "";
             
             let dateStr = (s.daysFromT === null) ? "Theo TB của CĐT" : calculateDate(hdmbObj, s.daysFromT);
