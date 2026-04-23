@@ -88,7 +88,6 @@
         let dataCanHo = [];
 
         window.onload = function() {
-            // Thêm đuôi "?v=1" để ép trình duyệt không dùng cache cũ
             fetch('Data.json?v=' + new Date().getTime())
                 .then(response => {
                     if (!response.ok) throw new Error("Lỗi mạng 404");
@@ -96,7 +95,7 @@
                 })
                 .then(data => {
                     dataCanHo = data;
-                    document.getElementById('data-status').innerText = "Đã kết nối thành công với kho dữ liệu (Phiên bản chống Cache)!";
+                    document.getElementById('data-status').innerText = "Đã kết nối thành công với kho dữ liệu!";
                     document.getElementById('data-status').style.color = "green";
                 })
                 .catch(error => {
@@ -109,10 +108,10 @@
             return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(number);
         };
 
-        // Hàm hỗ trợ tìm đúng tên cột dù có bị dính khoảng trắng
+        // HÀM TÌM KIẾM BẤT BẠI: Bỏ qua khoảng trắng và không phân biệt HOA/thường
         const layGiaTriCot = (item, tenCotCanTim) => {
-            const keyThucTe = Object.keys(item).find(k => k.trim() === tenCotCanTim);
-            return keyThucTe ? item[keyThucTe] : null;
+            const keyThucTe = Object.keys(item).find(k => k.trim().toLowerCase() === tenCotCanTim.toLowerCase());
+            return keyThucTe ? item[keyThucTe] : "0"; // Trả về "0" nếu không có data thay vì undefined
         };
 
         window.xuLyTinhGia = function() {
@@ -120,22 +119,12 @@
             const maCanHoNhap = document.getElementById('apartment-code').value.toUpperCase().trim();
             const phuongAn = document.getElementById('payment-method').value;
 
-            if (!dataCanHo) {
-                alert("Hệ thống chưa tải được dữ liệu.");
-                return;
-            }
+            if (!dataCanHo) return;
 
-            // --- BƯỚC XỬ LÝ DỮ LIỆU ĐA NĂNG ---
             let dataList = dataCanHo;
-            // Nếu data là dạng Object {"Sheet1": [...] } thì bóc lấy mảng bên trong
             if (!Array.isArray(dataList)) {
                 const keys = Object.keys(dataList);
                 dataList = dataList[keys[0]]; 
-            }
-
-            if (!dataList || dataList.length === 0) {
-                alert("File Data.json rỗng hoặc sai cấu trúc!");
-                return;
             }
 
             if (!maCanHoNhap) {
@@ -143,7 +132,6 @@
                 return;
             }
 
-            // --- TÌM KIẾM THÔNG MINH (Bỏ qua mọi khoảng trắng thừa) ---
             const thongTinCanHo = dataList.find(item => {
                 const giaTriMaCan = layGiaTriCot(item, "ma_can");
                 if (giaTriMaCan) {
@@ -152,25 +140,17 @@
                 return false;
             });
 
-            // NẾU TÌM KHÔNG THẤY: HIỂN THỊ LUÔN DỮ LIỆU ĐANG BỊ LỖI CHO NGƯỜI DÙNG XEM
             if (!thongTinCanHo) {
-                const mauJson = JSON.stringify(dataList[0], null, 2);
-                alert("Không tìm thấy mã: " + maCanHoNhap + "\n\n--- THÔNG TIN GỠ LỖI ---\nDữ liệu đầu tiên mà web đọc được là:\n" + mauJson + "\n\nHãy kiểm tra xem chữ 'ma_can' có viết đúng không nhé!");
-                document.getElementById('result-box').style.display = 'none';
+                alert("Không tìm thấy mã: " + maCanHoNhap + " trong dữ liệu.");
                 return;
             }
 
-            // Lấy dữ liệu an toàn
+            // --- TRÍCH XUẤT DỮ LIỆU ---
             const giaGoc = Number(layGiaTriCot(thongTinCanHo, "gia_tien")) || 0;
-            const loaiCan = layGiaTriCot(thongTinCanHo, "Type") || "Không xác định";
-            const dienTich = layGiaTriCot(thongTinCanHo, "dien_tich") || 0;
+            const loaiCan = layGiaTriCot(thongTinCanHo, "type") || "Không xác định";
+            const dienTich = layGiaTriCot(thongTinCanHo, "dien_tich"); // Đã chống lỗi bằng hàm trên
 
-            if(giaGoc === 0) {
-                alert("Lỗi: Không đọc được cột 'gia_tien'. Hãy đảm bảo nó là số nguyên (không có dấu phẩy) trong file JSON!");
-                return;
-            }
-
-            // Tính toán
+            // Tính toán chiết khấu
             let tyLeChietKhau = 0; 
             if (phuongAn === '30-ngay') tyLeChietKhau = 0.10;
             else if (phuongAn === 'tts-50') tyLeChietKhau = 0.05;
