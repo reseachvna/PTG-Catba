@@ -1,6792 +1,6792 @@
 [
   {
-    "ID": "V2.204",
+    "ma_can": "V2.204",
     "Type": "1PN",
-    " Dien tich ": "88.0",
-    "Gia ban": "7,664,931,000 đ",
+    " dien_tich ": "88.0",
+    "gia_tien": "7664931000",
     "": ""
   },
   {
-    "ID": "V2.304",
+    "ma_can": "V2.304",
     "Type": "1PN",
-    " Dien tich ": "89.0",
-    "Gia ban": "7,759,890,900 đ",
+    " dien_tich ": "89.0",
+    "gia_tien": "7759890900",
     "": ""
   },
   {
-    "ID": "V2.512",
+    "ma_can": "V2.512",
     "Type": "1PN",
-    " Dien tich ": "89.4",
-    "Gia ban": "8,163,763,200 đ",
+    " dien_tich ": "89.4",
+    "gia_tien": "8163763200",
     "": ""
   },
   {
-    "ID": "V2.1704",
+    "ma_can": "V2.1704",
     "Type": "1PN",
-    " Dien tich ": "63.0",
-    "Gia ban": "6,880,204,800 đ",
+    " dien_tich ": "63.0",
+    "gia_tien": "6880204800",
     "": ""
   },
   {
-    "ID": "V2.1703",
+    "ma_can": "V2.1703",
     "Type": "1PN",
-    " Dien tich ": "92.2",
-    "Gia ban": "5,931,716,400 đ",
+    " dien_tich ": "92.2",
+    "gia_tien": "5931716400",
     "": ""
   },
   {
-    "ID": "V2.502",
+    "ma_can": "V2.502",
     "Type": "2PN",
-    " Dien tich ": "121.0",
-    "Gia ban": "11,374,565,400 đ",
+    " dien_tich ": "121.0",
+    "gia_tien": "11374565400",
     "": ""
   },
   {
-    "ID": "V2.508",
+    "ma_can": "V2.508",
     "Type": "2PN",
-    " Dien tich ": "112.7",
-    "Gia ban": "10,019,547,000 đ",
+    " dien_tich ": "112.7",
+    "gia_tien": "10019547000",
     "": ""
   },
   {
-    "ID": "V2.702",
+    "ma_can": "V2.702",
     "Type": "2PN",
-    " Dien tich ": "133.4",
-    "Gia ban": "12,525,823,800 đ",
+    " dien_tich ": "133.4",
+    "gia_tien": "12525823800",
     "": ""
   },
   {
-    "ID": "V2.902",
+    "ma_can": "V2.902",
     "Type": "2PN",
-    " Dien tich ": "133.5",
-    "Gia ban": "12,805,181,100 đ",
+    " dien_tich ": "133.5",
+    "gia_tien": "12805181100",
     "": ""
   },
   {
-    "ID": "V2.1002",
+    "ma_can": "V2.1002",
     "Type": "2PN",
-    " Dien tich ": "122.6",
-    "Gia ban": "12,120,252,300 đ",
+    " dien_tich ": "122.6",
+    "gia_tien": "12120252300",
     "": ""
   },
   {
-    "ID": "V2.1202",
+    "ma_can": "V2.1202",
     "Type": "2PN",
-    " Dien tich ": "120.8",
-    "Gia ban": "12,245,686,200 đ",
+    " dien_tich ": "120.8",
+    "gia_tien": "12245686200",
     "": ""
   },
   {
-    "ID": "V2.1402",
+    "ma_can": "V2.1402",
     "Type": "2PN",
-    " Dien tich ": "122.4",
-    "Gia ban": "12,487,833,000 đ",
+    " dien_tich ": "122.4",
+    "gia_tien": "12487833000",
     "": ""
   },
   {
-    "ID": "V2.1502",
+    "ma_can": "V2.1502",
     "Type": "2PN",
-    " Dien tich ": "133.3",
-    "Gia ban": "13,469,828,400 đ",
+    " dien_tich ": "133.3",
+    "gia_tien": "13469828400",
     "": ""
   },
   {
-    "ID": "V2.1602",
+    "ma_can": "V2.1602",
     "Type": "2PN",
-    " Dien tich ": "120.5",
-    "Gia ban": "12,594,778,200 đ",
+    " dien_tich ": "120.5",
+    "gia_tien": "12594778200",
     "": ""
   },
   {
-    "ID": "V2.202",
+    "ma_can": "V2.202",
     "Type": "2PN",
-    " Dien tich ": "155.6",
-    "Gia ban": "13,850,380,800 đ",
+    " dien_tich ": "155.6",
+    "gia_tien": "13850380800",
     "": ""
   },
   {
-    "ID": "V2.206",
+    "ma_can": "V2.206",
     "Type": "2PN",
-    " Dien tich ": "133.7",
-    "Gia ban": "11,264,595,300 đ",
+    " dien_tich ": "133.7",
+    "gia_tien": "11264595300",
     "": ""
   },
   {
-    "ID": "V2.208",
+    "ma_can": "V2.208",
     "Type": "2PN",
-    " Dien tich ": "141.8",
-    "Gia ban": "11,774,372,400 đ",
+    " dien_tich ": "141.8",
+    "gia_tien": "11774372400",
     "": ""
   },
   {
-    "ID": "V2.302",
+    "ma_can": "V2.302",
     "Type": "2PN",
-    " Dien tich ": "153.8",
-    "Gia ban": "14,000,340,600 đ",
+    " dien_tich ": "153.8",
+    "gia_tien": "14000340600",
     "": ""
   },
   {
-    "ID": "V2.306",
+    "ma_can": "V2.306",
     "Type": "2PN",
-    " Dien tich ": "117.8",
-    "Gia ban": "11,208,123,900 đ",
+    " dien_tich ": "117.8",
+    "gia_tien": "11208123900",
     "": ""
   },
   {
-    "ID": "V2.308",
+    "ma_can": "V2.308",
     "Type": "2PN",
-    " Dien tich ": "125.1",
-    "Gia ban": "10,838,085,300 đ",
+    " dien_tich ": "125.1",
+    "gia_tien": "10838085300",
     "": ""
   },
   {
-    "ID": "V2.802",
+    "ma_can": "V2.802",
     "Type": "2PN",
-    " Dien tich ": "120.0",
-    "Gia ban": "11,682,667,800 đ",
+    " dien_tich ": "120.0",
+    "gia_tien": "11682667800",
     "": ""
   },
   {
-    "ID": "V2.210",
+    "ma_can": "V2.210",
     "Type": "3PN",
-    " Dien tich ": "167.5",
-    "Gia ban": "15,455,098,800 đ",
+    " dien_tich ": "167.5",
+    "gia_tien": "15455098800",
     "": ""
   },
   {
-    "ID": "V2.310",
+    "ma_can": "V2.310",
     "Type": "3PN",
-    " Dien tich ": "168.0",
-    "Gia ban": "15,670,665,900 đ",
+    " dien_tich ": "168.0",
+    "gia_tien": "15670665900",
     "": ""
   },
   {
-    "ID": "H3.720A",
+    "ma_can": "H3.720A",
     "Type": "KS",
-    " Dien tich ": "74.6",
-    "Gia ban": "5,949,980,055 đ",
+    " dien_tich ": "74.6",
+    "gia_tien": "5949980055",
     "": ""
   },
   {
-    "ID": "H3.722A",
+    "ma_can": "H3.722A",
     "Type": "KS",
-    " Dien tich ": "48.3",
-    "Gia ban": "4,170,962,700 đ",
+    " dien_tich ": "48.3",
+    "gia_tien": "4170962700",
     "": ""
   },
   {
-    "ID": "H3.820A",
+    "ma_can": "H3.820A",
     "Type": "KS",
-    " Dien tich ": "41.8",
-    "Gia ban": "3,652,894,800 đ",
+    " dien_tich ": "41.8",
+    "gia_tien": "3652894800",
     "": ""
   },
   {
-    "ID": "H3.920B",
+    "ma_can": "H3.920B",
     "Type": "KS",
-    " Dien tich ": "47.3",
-    "Gia ban": "4,173,466,500 đ",
+    " dien_tich ": "47.3",
+    "gia_tien": "4173466500",
     "": ""
   },
   {
-    "ID": "H3.924A",
+    "ma_can": "H3.924A",
     "Type": "KS",
-    " Dien tich ": "41.9",
-    "Gia ban": "3,698,446,500 đ",
+    " dien_tich ": "41.9",
+    "gia_tien": "3698446500",
     "": ""
   },
   {
-    "ID": "H3.1520",
+    "ma_can": "H3.1520",
     "Type": "KS",
-    " Dien tich ": "47.3",
-    "Gia ban": "4,397,551,200 đ",
+    " dien_tich ": "47.3",
+    "gia_tien": "4397551200",
     "": ""
   },
   {
-    "ID": "H3.1526",
+    "ma_can": "H3.1526",
     "Type": "KS",
-    " Dien tich ": "40.4",
-    "Gia ban": "3,759,616,800 đ",
+    " dien_tich ": "40.4",
+    "gia_tien": "3759616800",
     "": ""
   },
   {
-    "ID": "V3.702",
+    "ma_can": "V3.702",
     "Type": "1PN",
-    " Dien tich ": "57.7",
-    "Gia ban": "5,678,634,600 đ",
+    " dien_tich ": "57.7",
+    "gia_tien": "5678634600",
     "": ""
   },
   {
-    "ID": "V3.802",
+    "ma_can": "V3.802",
     "Type": "1PN",
-    " Dien tich ": "72.6",
-    "Gia ban": "6,426,447,300 đ",
+    " dien_tich ": "72.6",
+    "gia_tien": "6426447300",
     "": ""
   },
   {
-    "ID": "V3.806",
+    "ma_can": "V3.806",
     "Type": "1PN",
-    " Dien tich ": "69.7",
-    "Gia ban": "6,961,063,500 đ",
+    " dien_tich ": "69.7",
+    "gia_tien": "6961063500",
     "": ""
   },
   {
-    "ID": "V3.902",
+    "ma_can": "V3.902",
     "Type": "1PN",
-    " Dien tich ": "66.1",
-    "Gia ban": "6,055,183,800 đ",
+    " dien_tich ": "66.1",
+    "gia_tien": "6055183800",
     "": ""
   },
   {
-    "ID": "V3.1002",
+    "ma_can": "V3.1002",
     "Type": "1PN",
-    " Dien tich ": "72.7",
-    "Gia ban": "6,584,578,200 đ",
+    " dien_tich ": "72.7",
+    "gia_tien": "6584578200",
     "": ""
   },
   {
-    "ID": "V3.1402",
+    "ma_can": "V3.1402",
     "Type": "1PN",
-    " Dien tich ": "72.0",
-    "Gia ban": "6,712,854,300 đ",
+    " dien_tich ": "72.0",
+    "gia_tien": "6712854300",
     "": ""
   },
   {
-    "ID": "V3.1430",
+    "ma_can": "V3.1430",
     "Type": "1PN",
-    " Dien tich ": "66.5",
-    "Gia ban": "7,292,423,700 đ",
+    " dien_tich ": "66.5",
+    "gia_tien": "7292423700",
     "": ""
   },
   {
-    "ID": "V3.1510",
+    "ma_can": "V3.1510",
     "Type": "1PN",
-    " Dien tich ": "80.0",
-    "Gia ban": "7,814,876,400 đ",
+    " dien_tich ": "80.0",
+    "gia_tien": "7814876400",
     "": ""
   },
   {
-    "ID": "V3.1602",
+    "ma_can": "V3.1602",
     "Type": "1PN",
-    " Dien tich ": "73.0",
-    "Gia ban": "6,929,807,400 đ",
+    " dien_tich ": "73.0",
+    "gia_tien": "6929807400",
     "": ""
   },
   {
-    "ID": "V3.1604",
+    "ma_can": "V3.1604",
     "Type": "1PN",
-    " Dien tich ": "66.9",
-    "Gia ban": "7,187,339,700 đ",
+    " dien_tich ": "66.9",
+    "gia_tien": "7187339700",
     "": ""
   },
   {
-    "ID": "V3.1605",
+    "ma_can": "V3.1605",
     "Type": "1PN",
-    " Dien tich ": "68.8",
-    "Gia ban": "5,420,363,310 đ",
+    " dien_tich ": "68.8",
+    "gia_tien": "5420363310",
     "": ""
   },
   {
-    "ID": "V3.1606",
+    "ma_can": "V3.1606",
     "Type": "1PN",
-    " Dien tich ": "69.8",
-    "Gia ban": "7,498,899,000 đ",
+    " dien_tich ": "69.8",
+    "gia_tien": "7498899000",
     "": ""
   },
   {
-    "ID": "V3.1607",
+    "ma_can": "V3.1607",
     "Type": "1PN",
-    " Dien tich ": "80.1",
-    "Gia ban": "5,609,384,325 đ",
+    " dien_tich ": "80.1",
+    "gia_tien": "5609384325",
     "": ""
   },
   {
-    "ID": "V3.1609",
+    "ma_can": "V3.1609",
     "Type": "1PN",
-    " Dien tich ": "80.2",
-    "Gia ban": "5,610,314,790 đ",
+    " dien_tich ": "80.2",
+    "gia_tien": "5610314790",
     "": ""
   },
   {
-    "ID": "V3.1610",
+    "ma_can": "V3.1610",
     "Type": "1PN",
-    " Dien tich ": "80.5",
-    "Gia ban": "7,863,483,600 đ",
+    " dien_tich ": "80.5",
+    "gia_tien": "7863483600",
     "": ""
   },
   {
-    "ID": "V3.1612",
+    "ma_can": "V3.1612",
     "Type": "1PN",
-    " Dien tich ": "79.4",
-    "Gia ban": "7,804,548,900 đ",
+    " dien_tich ": "79.4",
+    "gia_tien": "7804548900",
     "": ""
   },
   {
-    "ID": "V3.1615",
+    "ma_can": "V3.1615",
     "Type": "1PN",
-    " Dien tich ": "101.2",
-    "Gia ban": "6,366,542,400 đ",
+    " dien_tich ": "101.2",
+    "gia_tien": "6366542400",
     "": ""
   },
   {
-    "ID": "V3.1617",
+    "ma_can": "V3.1617",
     "Type": "1PN",
-    " Dien tich ": "76.3",
-    "Gia ban": "6,017,552,100 đ",
+    " dien_tich ": "76.3",
+    "gia_tien": "6017552100",
     "": ""
   },
   {
-    "ID": "V3.1619",
+    "ma_can": "V3.1619",
     "Type": "1PN",
-    " Dien tich ": "68.6",
-    "Gia ban": "5,404,538,160 đ",
+    " dien_tich ": "68.6",
+    "gia_tien": "5404538160",
     "": ""
   },
   {
-    "ID": "V3.1621",
+    "ma_can": "V3.1621",
     "Type": "1PN",
-    " Dien tich ": "68.0",
-    "Gia ban": "5,362,956,000 đ",
+    " dien_tich ": "68.0",
+    "gia_tien": "5362956000",
     "": ""
   },
   {
-    "ID": "V3.1622",
+    "ma_can": "V3.1622",
     "Type": "1PN",
-    " Dien tich ": "87.1",
-    "Gia ban": "8,187,820,200 đ",
+    " dien_tich ": "87.1",
+    "gia_tien": "8187820200",
     "": ""
   },
   {
-    "ID": "V3.1624",
+    "ma_can": "V3.1624",
     "Type": "1PN",
-    " Dien tich ": "96.6",
-    "Gia ban": "9,074,620,800 đ",
+    " dien_tich ": "96.6",
+    "gia_tien": "9074620800",
     "": ""
   },
   {
-    "ID": "V3.708",
+    "ma_can": "V3.708",
     "Type": "2PN",
-    " Dien tich ": "147.7",
-    "Gia ban": "13,629,697,200 đ",
+    " dien_tich ": "147.7",
+    "gia_tien": "13629697200",
     "": ""
   },
   {
-    "ID": "V3.710",
+    "ma_can": "V3.710",
     "Type": "2PN",
-    " Dien tich ": "147.6",
-    "Gia ban": "13,624,592,400 đ",
+    " dien_tich ": "147.6",
+    "gia_tien": "13624592400",
     "": ""
   },
   {
-    "ID": "V3.726",
+    "ma_can": "V3.726",
     "Type": "2PN",
-    " Dien tich ": "137.1",
-    "Gia ban": "12,995,232,300 đ",
+    " dien_tich ": "137.1",
+    "gia_tien": "12995232300",
     "": ""
   },
   {
-    "ID": "V3.808",
+    "ma_can": "V3.808",
     "Type": "2PN",
-    " Dien tich ": "147.8",
-    "Gia ban": "13,781,757,600 đ",
+    " dien_tich ": "147.8",
+    "gia_tien": "13781757600",
     "": ""
   },
   {
-    "ID": "V3.810",
+    "ma_can": "V3.810",
     "Type": "2PN",
-    " Dien tich ": "147.8",
-    "Gia ban": "13,783,854,600 đ",
+    " dien_tich ": "147.8",
+    "gia_tien": "13783854600",
     "": ""
   },
   {
-    "ID": "V3.908",
+    "ma_can": "V3.908",
     "Type": "2PN",
-    " Dien tich ": "135.9",
-    "Gia ban": "13,115,045,700 đ",
+    " dien_tich ": "135.9",
+    "gia_tien": "13115045700",
     "": ""
   },
   {
-    "ID": "V3.910",
+    "ma_can": "V3.910",
     "Type": "2PN",
-    " Dien tich ": "159.8",
-    "Gia ban": "14,723,479,800 đ",
+    " dien_tich ": "159.8",
+    "gia_tien": "14723479800",
     "": ""
   },
   {
-    "ID": "V3.926",
+    "ma_can": "V3.926",
     "Type": "2PN",
-    " Dien tich ": "137.5",
-    "Gia ban": "13,354,398,900 đ",
+    " dien_tich ": "137.5",
+    "gia_tien": "13354398900",
     "": ""
   },
   {
-    "ID": "V3.1008",
+    "ma_can": "V3.1008",
     "Type": "2PN",
-    " Dien tich ": "160.0",
-    "Gia ban": "14,942,959,200 đ",
+    " dien_tich ": "160.0",
+    "gia_tien": "14942959200",
     "": ""
   },
   {
-    "ID": "V3.1010",
+    "ma_can": "V3.1010",
     "Type": "2PN",
-    " Dien tich ": "147.3",
-    "Gia ban": "14,014,593,900 đ",
+    " dien_tich ": "147.3",
+    "gia_tien": "14014593900",
     "": ""
   },
   {
-    "ID": "V3.1206",
+    "ma_can": "V3.1206",
     "Type": "2PN",
-    " Dien tich ": "159.7",
-    "Gia ban": "15,172,758,900 đ",
+    " dien_tich ": "159.7",
+    "gia_tien": "15172758900",
     "": ""
   },
   {
-    "ID": "V3.1212",
+    "ma_can": "V3.1212",
     "Type": "2PN",
-    " Dien tich ": "146.1",
-    "Gia ban": "14,202,851,400 đ",
+    " dien_tich ": "146.1",
+    "gia_tien": "14202851400",
     "": ""
   },
   {
-    "ID": "V3.1232",
+    "ma_can": "V3.1232",
     "Type": "2PN",
-    " Dien tich ": "137.3",
-    "Gia ban": "13,747,375,800 đ",
+    " dien_tich ": "137.3",
+    "gia_tien": "13747375800",
     "": ""
   },
   {
-    "ID": "V3.1234",
+    "ma_can": "V3.1234",
     "Type": "2PN",
-    " Dien tich ": "137.3",
-    "Gia ban": "13,753,362,600 đ",
+    " dien_tich ": "137.3",
+    "gia_tien": "13753362600",
     "": ""
   },
   {
-    "ID": "V3.1406",
+    "ma_can": "V3.1406",
     "Type": "2PN",
-    " Dien tich ": "146.6",
-    "Gia ban": "14,567,757,300 đ",
+    " dien_tich ": "146.6",
+    "gia_tien": "14567757300",
     "": ""
   },
   {
-    "ID": "V3.1412",
+    "ma_can": "V3.1412",
     "Type": "2PN",
-    " Dien tich ": "134.6",
-    "Gia ban": "13,520,438,100 đ",
+    " dien_tich ": "134.6",
+    "gia_tien": "13520438100",
     "": ""
   },
   {
-    "ID": "V3.1506",
+    "ma_can": "V3.1506",
     "Type": "2PN",
-    " Dien tich ": "146.4",
-    "Gia ban": "14,470,217,100 đ",
+    " dien_tich ": "146.4",
+    "gia_tien": "14470217100",
     "": ""
   },
   {
-    "ID": "V3.1512",
+    "ma_can": "V3.1512",
     "Type": "2PN",
-    " Dien tich ": "146.9",
-    "Gia ban": "14,565,811,500 đ",
+    " dien_tich ": "146.9",
+    "gia_tien": "14565811500",
     "": ""
   },
   {
-    "ID": "V3.1534",
+    "ma_can": "V3.1534",
     "Type": "2PN",
-    " Dien tich ": "136.8",
-    "Gia ban": "14,013,810,000 đ",
+    " dien_tich ": "136.8",
+    "gia_tien": "14013810000",
     "": ""
   },
   {
-    "ID": "V3.1614",
+    "ma_can": "V3.1614",
     "Type": "2PN",
-    " Dien tich ": "134.4",
-    "Gia ban": "13,778,850,600 đ",
+    " dien_tich ": "134.4",
+    "gia_tien": "13778850600",
     "": ""
   },
   {
-    "ID": "H4.104",
+    "ma_can": "H4.104",
     "Type": "KS",
-    " Dien tich ": "49.3",
-    "Gia ban": "3,971,336,850 đ",
+    " dien_tich ": "49.3",
+    "gia_tien": "3971336850",
     "": ""
   },
   {
-    "ID": "H4.111",
+    "ma_can": "H4.111",
     "Type": "KS",
-    " Dien tich ": "56.0",
-    "Gia ban": "3,310,675,200 đ",
+    " dien_tich ": "56.0",
+    "gia_tien": "3310675200",
     "": ""
   },
   {
-    "ID": "H4.114",
+    "ma_can": "H4.114",
     "Type": "KS",
-    " Dien tich ": "48.6",
-    "Gia ban": "3,925,982,700 đ",
+    " dien_tich ": "48.6",
+    "gia_tien": "3925982700",
     "": ""
   },
   {
-    "ID": "H4.130",
+    "ma_can": "H4.130",
     "Type": "KS",
-    " Dien tich ": "48.9",
-    "Gia ban": "3,974,297,400 đ",
+    " dien_tich ": "48.9",
+    "gia_tien": "3974297400",
     "": ""
   },
   {
-    "ID": "H4.134",
+    "ma_can": "H4.134",
     "Type": "KS",
-    " Dien tich ": "49.2",
-    "Gia ban": "3,995,937,900 đ",
+    " dien_tich ": "49.2",
+    "gia_tien": "3995937900",
     "": ""
   },
   {
-    "ID": "H4.136",
+    "ma_can": "H4.136",
     "Type": "KS",
-    " Dien tich ": "47.8",
-    "Gia ban": "4,101,004,800 đ",
+    " dien_tich ": "47.8",
+    "gia_tien": "4101004800",
     "": ""
   },
   {
-    "ID": "H4.601",
+    "ma_can": "H4.601",
     "Type": "KS",
-    " Dien tich ": "63.6",
-    "Gia ban": "3,369,226,500 đ",
+    " dien_tich ": "63.6",
+    "gia_tien": "3369226500",
     "": ""
   },
   {
-    "ID": "H4.1619",
+    "ma_can": "H4.1619",
     "Type": "KS",
-    " Dien tich ": "56.4",
-    "Gia ban": "4,214,602,800 đ",
+    " dien_tich ": "56.4",
+    "gia_tien": "4214602800",
     "": ""
   },
   {
-    "ID": "H4.1719",
+    "ma_can": "H4.1719",
     "Type": "KS",
-    " Dien tich ": "69.3",
-    "Gia ban": "3,896,128,800 đ",
+    " dien_tich ": "69.3",
+    "gia_tien": "3896128800",
     "": ""
   },
   {
-    "ID": "V4.118",
+    "ma_can": "V4.118",
     "Type": "1PN",
-    " Dien tich ": "81.0",
-    "Gia ban": "6,986,152,800 đ",
+    " dien_tich ": "81.0",
+    "gia_tien": "6986152800",
     "": ""
   },
   {
-    "ID": "V4.120",
+    "ma_can": "V4.120",
     "Type": "1PN",
-    " Dien tich ": "77.5",
-    "Gia ban": "6,427,495,800 đ",
+    " dien_tich ": "77.5",
+    "gia_tien": "6427495800",
     "": ""
   },
   {
-    "ID": "V4.220",
+    "ma_can": "V4.220",
     "Type": "1PN",
-    " Dien tich ": "73.8",
-    "Gia ban": "6,434,733,600 đ",
+    " dien_tich ": "73.8",
+    "gia_tien": "6434733600",
     "": ""
   },
   {
-    "ID": "V4.520",
+    "ma_can": "V4.520",
     "Type": "1PN",
-    " Dien tich ": "74.9",
-    "Gia ban": "6,748,520,400 đ",
+    " dien_tich ": "74.9",
+    "gia_tien": "6748520400",
     "": ""
   },
   {
-    "ID": "V4.708A",
+    "ma_can": "V4.708A",
     "Type": "1PN",
-    " Dien tich ": "109.0",
-    "Gia ban": "9,278,148,600 đ",
+    " dien_tich ": "109.0",
+    "gia_tien": "9278148600",
     "": ""
   },
   {
-    "ID": "V4.810",
+    "ma_can": "V4.810",
     "Type": "1PN",
-    " Dien tich ": "74.8",
-    "Gia ban": "6,969,774,600 đ",
+    " dien_tich ": "74.8",
+    "gia_tien": "6969774600",
     "": ""
   },
   {
-    "ID": "V4.902",
+    "ma_can": "V4.902",
     "Type": "1PN",
-    " Dien tich ": "80.2",
-    "Gia ban": "8,214,451,200 đ",
+    " dien_tich ": "80.2",
+    "gia_tien": "8214451200",
     "": ""
   },
   {
-    "ID": "V4.1012",
+    "ma_can": "V4.1012",
     "Type": "1PN",
-    " Dien tich ": "73.7",
-    "Gia ban": "7,013,203,200 đ",
+    " dien_tich ": "73.7",
+    "gia_tien": "7013203200",
     "": ""
   },
   {
-    "ID": "V4.1114",
+    "ma_can": "V4.1114",
     "Type": "1PN",
-    " Dien tich ": "66.9",
-    "Gia ban": "6,432,354,900 đ",
+    " dien_tich ": "66.9",
+    "gia_tien": "6432354900",
     "": ""
   },
   {
-    "ID": "V4.1420",
+    "ma_can": "V4.1420",
     "Type": "1PN",
-    " Dien tich ": "73.7",
-    "Gia ban": "7,232,092,200 đ",
+    " dien_tich ": "73.7",
+    "gia_tien": "7232092200",
     "": ""
   },
   {
-    "ID": "V4.1422",
+    "ma_can": "V4.1422",
     "Type": "1PN",
-    " Dien tich ": "69.4",
-    "Gia ban": "6,814,027,800 đ",
+    " dien_tich ": "69.4",
+    "gia_tien": "6814027800",
     "": ""
   },
   {
-    "ID": "V4.1520",
+    "ma_can": "V4.1520",
     "Type": "1PN",
-    " Dien tich ": "67.2",
-    "Gia ban": "6,660,783,000 đ",
+    " dien_tich ": "67.2",
+    "gia_tien": "6660783000",
     "": ""
   },
   {
-    "ID": "V4.1610",
+    "ma_can": "V4.1610",
     "Type": "1PN",
-    " Dien tich ": "74.1",
-    "Gia ban": "7,418,061,900 đ",
+    " dien_tich ": "74.1",
+    "gia_tien": "7418061900",
     "": ""
   },
   {
-    "ID": "V4.1720",
+    "ma_can": "V4.1720",
     "Type": "1PN",
-    " Dien tich ": "67.0",
-    "Gia ban": "6,773,619,600 đ",
+    " dien_tich ": "67.0",
+    "gia_tien": "6773619600",
     "": ""
   },
   {
-    "ID": "V4.1722",
+    "ma_can": "V4.1722",
     "Type": "1PN",
-    " Dien tich ": "58.2",
-    "Gia ban": "6,418,854,900 đ",
+    " dien_tich ": "58.2",
+    "gia_tien": "6418854900",
     "": ""
   },
   {
-    "ID": "V4.1801",
+    "ma_can": "V4.1801",
     "Type": "1PN",
-    " Dien tich ": "104.6",
-    "Gia ban": "6,086,901,600 đ",
+    " dien_tich ": "104.6",
+    "gia_tien": "6086901600",
     "": ""
   },
   {
-    "ID": "V4.1803",
+    "ma_can": "V4.1803",
     "Type": "1PN",
-    " Dien tich ": "68.4",
-    "Gia ban": "4,801,680,000 đ",
+    " dien_tich ": "68.4",
+    "gia_tien": "4801680000",
     "": ""
   },
   {
-    "ID": "V4.1804",
+    "ma_can": "V4.1804",
     "Type": "1PN",
-    " Dien tich ": "80.3",
-    "Gia ban": "8,169,628,500 đ",
+    " dien_tich ": "80.3",
+    "gia_tien": "8169628500",
     "": ""
   },
   {
-    "ID": "V4.1805",
+    "ma_can": "V4.1805",
     "Type": "1PN",
-    " Dien tich ": "80.1",
-    "Gia ban": "5,024,592,900 đ",
+    " dien_tich ": "80.1",
+    "gia_tien": "5024592900",
     "": ""
   },
   {
-    "ID": "V4.1807",
+    "ma_can": "V4.1807",
     "Type": "1PN",
-    " Dien tich ": "92.7",
-    "Gia ban": "5,745,673,800 đ",
+    " dien_tich ": "92.7",
+    "gia_tien": "5745673800",
     "": ""
   },
   {
-    "ID": "V4.1808",
+    "ma_can": "V4.1808",
     "Type": "1PN",
-    " Dien tich ": "73.5",
-    "Gia ban": "7,503,526,800 đ",
+    " dien_tich ": "73.5",
+    "gia_tien": "7503526800",
     "": ""
   },
   {
-    "ID": "V4.1810",
+    "ma_can": "V4.1810",
     "Type": "1PN",
-    " Dien tich ": "68.7",
-    "Gia ban": "7,014,280,500 đ",
+    " dien_tich ": "68.7",
+    "gia_tien": "7014280500",
     "": ""
   },
   {
-    "ID": "V4.1811",
+    "ma_can": "V4.1811",
     "Type": "1PN",
-    " Dien tich ": "73.2",
-    "Gia ban": "5,138,640,000 đ",
+    " dien_tich ": "73.2",
+    "gia_tien": "5138640000",
     "": ""
   },
   {
-    "ID": "V4.1812",
+    "ma_can": "V4.1812",
     "Type": "1PN",
-    " Dien tich ": "67.9",
-    "Gia ban": "7,561,996,200 đ",
+    " dien_tich ": "67.9",
+    "gia_tien": "7561996200",
     "": ""
   },
   {
-    "ID": "V4.1815",
+    "ma_can": "V4.1815",
     "Type": "1PN",
-    " Dien tich ": "68.2",
-    "Gia ban": "5,505,786,000 đ",
+    " dien_tich ": "68.2",
+    "gia_tien": "5505786000",
     "": ""
   },
   {
-    "ID": "V4.218",
+    "ma_can": "V4.218",
     "Type": "2PN",
-    " Dien tich ": "148.8",
-    "Gia ban": "13,181,751,000 đ",
+    " dien_tich ": "148.8",
+    "gia_tien": "13181751000",
     "": ""
   },
   {
-    "ID": "V4.324",
+    "ma_can": "V4.324",
     "Type": "2PN",
-    " Dien tich ": "160.4",
-    "Gia ban": "14,702,005,800 đ",
+    " dien_tich ": "160.4",
+    "gia_tien": "14702005800",
     "": ""
   },
   {
-    "ID": "V4.402",
+    "ma_can": "V4.402",
     "Type": "2PN",
-    " Dien tich ": "183.8",
-    "Gia ban": "16,503,105,600 đ",
+    " dien_tich ": "183.8",
+    "gia_tien": "16503105600",
     "": ""
   },
   {
-    "ID": "V4.420",
+    "ma_can": "V4.420",
     "Type": "2PN",
-    " Dien tich ": "171.5",
-    "Gia ban": "15,623,226,000 đ",
+    " dien_tich ": "171.5",
+    "gia_tien": "15623226000",
     "": ""
   },
   {
-    "ID": "V4.514",
+    "ma_can": "V4.514",
     "Type": "2PN",
-    " Dien tich ": "136.6",
-    "Gia ban": "12,780,126,900 đ",
+    " dien_tich ": "136.6",
+    "gia_tien": "12780126900",
     "": ""
   },
   {
-    "ID": "V4.524",
+    "ma_can": "V4.524",
     "Type": "2PN",
-    " Dien tich ": "148.7",
-    "Gia ban": "13,593,440,700 đ",
+    " dien_tich ": "148.7",
+    "gia_tien": "13593440700",
     "": ""
   },
   {
-    "ID": "V4.608",
+    "ma_can": "V4.608",
     "Type": "2PN",
-    " Dien tich ": "160.8",
-    "Gia ban": "14,581,544,400 đ",
+    " dien_tich ": "160.8",
+    "gia_tien": "14581544400",
     "": ""
   },
   {
-    "ID": "V4.620",
+    "ma_can": "V4.620",
     "Type": "2PN",
-    " Dien tich ": "172.0",
-    "Gia ban": "15,975,604,800 đ",
+    " dien_tich ": "172.0",
+    "gia_tien": "15975604800",
     "": ""
   },
   {
-    "ID": "V4.802",
+    "ma_can": "V4.802",
     "Type": "2PN",
-    " Dien tich ": "183.9",
-    "Gia ban": "17,238,564,900 đ",
+    " dien_tich ": "183.9",
+    "gia_tien": "17238564900",
     "": ""
   },
   {
-    "ID": "V4.806",
+    "ma_can": "V4.806",
     "Type": "2PN",
-    " Dien tich ": "148.7",
-    "Gia ban": "14,053,769,100 đ",
+    " dien_tich ": "148.7",
+    "gia_tien": "14053769100",
     "": ""
   },
   {
-    "ID": "V4.818",
+    "ma_can": "V4.818",
     "Type": "2PN",
-    " Dien tich ": "172.1",
-    "Gia ban": "16,394,818,500 đ",
+    " dien_tich ": "172.1",
+    "gia_tien": "16394818500",
     "": ""
   },
   {
-    "ID": "V4.908",
+    "ma_can": "V4.908",
     "Type": "2PN",
-    " Dien tich ": "160.9",
-    "Gia ban": "15,067,110,600 đ",
+    " dien_tich ": "160.9",
+    "gia_tien": "15067110600",
     "": ""
   },
   {
-    "ID": "V4.916",
+    "ma_can": "V4.916",
     "Type": "2PN",
-    " Dien tich ": "148.5",
-    "Gia ban": "14,190,296,400 đ",
+    " dien_tich ": "148.5",
+    "gia_tien": "14190296400",
     "": ""
   },
   {
-    "ID": "V4.1002",
+    "ma_can": "V4.1002",
     "Type": "2PN",
-    " Dien tich ": "159.5",
-    "Gia ban": "15,764,742,000 đ",
+    " dien_tich ": "159.5",
+    "gia_tien": "15764742000",
     "": ""
   },
   {
-    "ID": "V4.1020",
+    "ma_can": "V4.1020",
     "Type": "2PN",
-    " Dien tich ": "172.2",
-    "Gia ban": "16,752,585,600 đ",
+    " dien_tich ": "172.2",
+    "gia_tien": "16752585600",
     "": ""
   },
   {
-    "ID": "V4.1102",
+    "ma_can": "V4.1102",
     "Type": "2PN",
-    " Dien tich ": "149.0",
-    "Gia ban": "15,120,338,400 đ",
+    " dien_tich ": "149.0",
+    "gia_tien": "15120338400",
     "": ""
   },
   {
-    "ID": "V4.1112",
+    "ma_can": "V4.1112",
     "Type": "2PN",
-    " Dien tich ": "161.0",
-    "Gia ban": "15,391,849,500 đ",
+    " dien_tich ": "161.0",
+    "gia_tien": "15391849500",
     "": ""
   },
   {
-    "ID": "V4.1118",
+    "ma_can": "V4.1118",
     "Type": "2PN",
-    " Dien tich ": "160.7",
-    "Gia ban": "15,365,006,100 đ",
+    " dien_tich ": "160.7",
+    "gia_tien": "15365006100",
     "": ""
   },
   {
-    "ID": "V4.1402",
+    "ma_can": "V4.1402",
     "Type": "2PN",
-    " Dien tich ": "183.9",
-    "Gia ban": "18,164,737,800 đ",
+    " dien_tich ": "183.9",
+    "gia_tien": "18164737800",
     "": ""
   },
   {
-    "ID": "V4.1432",
+    "ma_can": "V4.1432",
     "Type": "2PN",
-    " Dien tich ": "183.8",
-    "Gia ban": "18,159,555,600 đ",
+    " dien_tich ": "183.8",
+    "gia_tien": "18159555600",
     "": ""
   },
   {
-    "ID": "V4.1518",
+    "ma_can": "V4.1518",
     "Type": "2PN",
-    " Dien tich ": "136.2",
-    "Gia ban": "13,987,537,200 đ",
+    " dien_tich ": "136.2",
+    "gia_tien": "13987537200",
     "": ""
   },
   {
-    "ID": "V4.1602",
+    "ma_can": "V4.1602",
     "Type": "2PN",
-    " Dien tich ": "171.7",
-    "Gia ban": "17,561,277,000 đ",
+    " dien_tich ": "171.7",
+    "gia_tien": "17561277000",
     "": ""
   },
   {
-    "ID": "V4.1608",
+    "ma_can": "V4.1608",
     "Type": "2PN",
-    " Dien tich ": "161.1",
-    "Gia ban": "16,037,920,800 đ",
+    " dien_tich ": "161.1",
+    "gia_tien": "16037920800",
     "": ""
   },
   {
-    "ID": "V4.1622",
+    "ma_can": "V4.1622",
     "Type": "2PN",
-    " Dien tich ": "183.8",
-    "Gia ban": "18,522,912,600 đ",
+    " dien_tich ": "183.8",
+    "gia_tien": "18522912600",
     "": ""
   },
   {
-    "ID": "V4.1702",
+    "ma_can": "V4.1702",
     "Type": "2PN",
-    " Dien tich ": "160.3",
-    "Gia ban": "16,808,319,000 đ",
+    " dien_tich ": "160.3",
+    "gia_tien": "16808319000",
     "": ""
   },
   {
-    "ID": "V4.1802",
+    "ma_can": "V4.1802",
     "Type": "2PN",
-    " Dien tich ": "169.1",
-    "Gia ban": "17,874,700,200 đ",
+    " dien_tich ": "169.1",
+    "gia_tien": "17874700200",
     "": ""
   },
   {
-    "ID": "V4.1806",
+    "ma_can": "V4.1806",
     "Type": "2PN",
-    " Dien tich ": "148.6",
-    "Gia ban": "15,342,350,400 đ",
+    " dien_tich ": "148.6",
+    "gia_tien": "15342350400",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   },
   {
-    "ID": "",
+    "ma_can": "",
     "Type": "",
-    " Dien tich ": "",
-    "Gia ban": "",
+    " dien_tich ": "",
+    "gia_tien": "",
     "": ""
   }
 ]
