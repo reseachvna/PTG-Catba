@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng thông tin phiếu tính giá</title>
+    <style>
+        /* === PHẦN ĐỊNH DẠNG GIAO DIỆN CHUNG === */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: normal;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        /* Trạng thái kết nối dữ liệu */
+        #data-status {
+            font-style: italic;
+            color: #888;
+            margin-bottom: 30px;
+        }
+
+        /* === PHẦN ĐỊNH DẠNG FORM NHẬP LIỆU === */
+        .form-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .form-fields {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .form-group label {
+            font-size: 20px;
+            margin-right: 20px;
+        }
+
+        .form-group input, 
+        .form-group select {
+            width: 320px;
+            height: 40px;
+            border: 1px solid #000;
+            font-size: 16px;
+            padding: 0 10px;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        .form-group select:focus {
+            border-color: #1b6329;
+            border-width: 1.5px;
+        }
+
+        .btn-submit {
+            background-color: #dbe4f4;
+            color: #1a365d;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-submit:hover {
+            background-color: #c8d6ed;
+        }
+
+        /* === PHẦN ĐỊNH DẠNG KHUNG KẾT QUẢ === */
+        #result-box {
+            display: none;
+            text-align: left;
+            background: #f9f9f9;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 8px;
+            font-size: 18px;
+        }
+
+        .info-row strong {
+            color: #1a365d;
+        }
+
+        /* Bảng tiến độ thanh toán */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+
+        table, th, td {
+            border: 1px solid #aaa;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #dbe4f4;
+            color: #1a365d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bảng thông tin phiếu tính giá</h1>
+        <h2>Dự án Flamingo Cát Bà Beach Resort</h2>
+        
+        <div id="data-status">Đang kết nối dữ liệu...</div>
+
+        <div class="form-wrapper">
+            <div class="form-fields">
+                <div class="form-group">
+                    <label for="fullname">Họ và Tên Khách hàng</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Nhập tên khách hàng...">
+                </div>
+                
+                <div class="form-group">
+                    <label for="apartment-code">Mã căn hộ</label>
+                    <input type="text" id="apartment-code" name="apartment-code" placeholder="Ví dụ: F101, F102, V205...">
+                </div>
+                
+                <div class="form-group">
+                    <label for="payment-method">Lựa chọn phương án thanh toán</label>
+                    <select id="payment-method" name="payment-method">
+                        <option value="12-thang">Phương án thanh toán 12 tháng</option>
+                        <option value="36-thang">Phương án thanh toán 36 tháng</option>
+                        <option value="30-ngay">Phương án thanh toán trong 30 ngày</option>
+                        <option value="tts-50">Phương án TTS 50%</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" class="btn-submit" onclick="xuLyTinhGia()">Tạo phiếu tính giá</button>
+            </div>
+        </div>
+
+        <div id="result-box">
+            <h3 style="text-align: center; color: #1a365d; margin-top: 0; font-size: 22px;">CHI TIẾT PHIẾU TÍNH GIÁ</h3>
+            
+            <div class="info-row"><span>Khách hàng:</span> <strong id="res-name"></strong></div>
+            <div class="info-row"><span>Mã căn hộ:</span> <strong id="res-code"></strong></div>
+            <div class="info-row"><span>Diện tích:</span> <strong id="res-area"></strong></div>
+            <div class="info-row"><span>Giá bán gốc:</span> <strong id="res-original-price"></strong></div>
+            <div class="info-row"><span>Mức chiết khấu:</span> <strong id="res-discount-rate"></strong></div>
+            <div class="info-row"><span>Giá trị chiết khấu:</span> <strong id="res-discount-amount"></strong></div>
+            <div class="info-row" style="background-color: #fff3f3; padding: 10px; border: 1px solid #ffcccc; margin-top: 15px;">
+                <span><strong>GIÁ BÁN SAU CHIẾT KHẤU:</strong></span> 
+                <strong id="res-final-price" style="color: red; font-size: 1.3em;"></strong>
+            </div>
+            
+            <h4 style="margin-top: 30px; font-size: 18px; color: #1a365d;">Tiến độ thanh toán chi tiết</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Đợt</th>
+                        <th>Tỷ lệ (%)</th>
+                        <th>Số tiền (VNĐ)</th>
+                    </tr>
+                </thead>
+                <tbody id="payment-schedule">
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // Biến lưu trữ dữ liệu từ file JSON
+        let dataCanHo = [];
+        const statusText = document.getElementById('data-status');
+
+        // Tự động kết nối với file Data.json khi tải trang
+        window.onload = function() {
+            fetch('Data.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Không tìm thấy file Data.json");
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    dataCanHo = data;
+                    statusText.innerText = "Đã kết nối thành công với kho dữ liệu căn hộ!";
+                    statusText.style.color = "green";
+                })
+                .catch(error => {
+                    statusText.innerText = "Lỗi: Không thể tải Data.json. Hãy đảm bảo bạn đã đưa file lên GitHub hoặc chạy bằng Live Server.";
+                    statusText.style.color = "red";
+                    console.error(error);
+                });
+        };
+
+        // Hàm hỗ trợ định dạng tiền tệ VNĐ
+        const formatVND = (number) => {
+            return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(number);
+        };
+
+        // Hàm chính chạy khi bấm nút
+        function xuLyTinhGia() {
+            const tenKhachHang = document.getElementById('fullname').value;
+            const maCanHoNhap = document.getElementById('apartment-code').value.toUpperCase().trim();
+            const phuongAn = document.getElementById('payment-method').value;
+
+            // Kiểm tra xem đã kết nối được data chưa
+            if (dataCanHo.length === 0) {
+                alert("Hệ thống chưa tải được dữ liệu (Data.json). Vui lòng kiểm tra lại kết nối hoặc đưa web lên GitHub!");
+                return;
+            }
+
+            if (!maCanHoNhap) {
+                alert("Vui lòng nhập mã căn hộ!");
+                return;
+            }
+
+            // Tìm kiếm căn hộ trong dữ liệu
+            const thongTinCanHo = dataCanHo.find(item => item.ma_can === maCanHoNhap);
+
+            if (!thongTinCanHo) {
+                alert("Không tìm thấy mã căn hộ: " + maCanHoNhap + " trong bảng dữ liệu!");
+                document.getElementById('result-box').style.display = 'none';
+                return;
+            }
+
+            // Tính toán chiết khấu
+            let tyLeChietKhau = 0; 
+            if (phuongAn === '30-ngay') tyLeChietKhau = 0.10;
+            else if (phuongAn === 'tts-50') tyLeChietKhau = 0.05;
+            else if (phuongAn === '12-thang') tyLeChietKhau = 0.02;
+            else if (phuongAn === '36-thang') tyLeChietKhau = 0;
+
+            const giaGoc

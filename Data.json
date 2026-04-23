@@ -1,0 +1,6792 @@
+[
+  {
+    "ID": "V2.204",
+    "Type": "1PN",
+    " Dien tich ": "88.0",
+    "Gia ban": "7,664,931,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.304",
+    "Type": "1PN",
+    " Dien tich ": "89.0",
+    "Gia ban": "7,759,890,900 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.512",
+    "Type": "1PN",
+    " Dien tich ": "89.4",
+    "Gia ban": "8,163,763,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.1704",
+    "Type": "1PN",
+    " Dien tich ": "63.0",
+    "Gia ban": "6,880,204,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.1703",
+    "Type": "1PN",
+    " Dien tich ": "92.2",
+    "Gia ban": "5,931,716,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.502",
+    "Type": "2PN",
+    " Dien tich ": "121.0",
+    "Gia ban": "11,374,565,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.508",
+    "Type": "2PN",
+    " Dien tich ": "112.7",
+    "Gia ban": "10,019,547,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.702",
+    "Type": "2PN",
+    " Dien tich ": "133.4",
+    "Gia ban": "12,525,823,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.902",
+    "Type": "2PN",
+    " Dien tich ": "133.5",
+    "Gia ban": "12,805,181,100 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.1002",
+    "Type": "2PN",
+    " Dien tich ": "122.6",
+    "Gia ban": "12,120,252,300 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.1202",
+    "Type": "2PN",
+    " Dien tich ": "120.8",
+    "Gia ban": "12,245,686,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.1402",
+    "Type": "2PN",
+    " Dien tich ": "122.4",
+    "Gia ban": "12,487,833,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.1502",
+    "Type": "2PN",
+    " Dien tich ": "133.3",
+    "Gia ban": "13,469,828,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.1602",
+    "Type": "2PN",
+    " Dien tich ": "120.5",
+    "Gia ban": "12,594,778,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.202",
+    "Type": "2PN",
+    " Dien tich ": "155.6",
+    "Gia ban": "13,850,380,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.206",
+    "Type": "2PN",
+    " Dien tich ": "133.7",
+    "Gia ban": "11,264,595,300 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.208",
+    "Type": "2PN",
+    " Dien tich ": "141.8",
+    "Gia ban": "11,774,372,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.302",
+    "Type": "2PN",
+    " Dien tich ": "153.8",
+    "Gia ban": "14,000,340,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.306",
+    "Type": "2PN",
+    " Dien tich ": "117.8",
+    "Gia ban": "11,208,123,900 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.308",
+    "Type": "2PN",
+    " Dien tich ": "125.1",
+    "Gia ban": "10,838,085,300 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.802",
+    "Type": "2PN",
+    " Dien tich ": "120.0",
+    "Gia ban": "11,682,667,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.210",
+    "Type": "3PN",
+    " Dien tich ": "167.5",
+    "Gia ban": "15,455,098,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V2.310",
+    "Type": "3PN",
+    " Dien tich ": "168.0",
+    "Gia ban": "15,670,665,900 đ",
+    "": ""
+  },
+  {
+    "ID": "H3.720A",
+    "Type": "KS",
+    " Dien tich ": "74.6",
+    "Gia ban": "5,949,980,055 đ",
+    "": ""
+  },
+  {
+    "ID": "H3.722A",
+    "Type": "KS",
+    " Dien tich ": "48.3",
+    "Gia ban": "4,170,962,700 đ",
+    "": ""
+  },
+  {
+    "ID": "H3.820A",
+    "Type": "KS",
+    " Dien tich ": "41.8",
+    "Gia ban": "3,652,894,800 đ",
+    "": ""
+  },
+  {
+    "ID": "H3.920B",
+    "Type": "KS",
+    " Dien tich ": "47.3",
+    "Gia ban": "4,173,466,500 đ",
+    "": ""
+  },
+  {
+    "ID": "H3.924A",
+    "Type": "KS",
+    " Dien tich ": "41.9",
+    "Gia ban": "3,698,446,500 đ",
+    "": ""
+  },
+  {
+    "ID": "H3.1520",
+    "Type": "KS",
+    " Dien tich ": "47.3",
+    "Gia ban": "4,397,551,200 đ",
+    "": ""
+  },
+  {
+    "ID": "H3.1526",
+    "Type": "KS",
+    " Dien tich ": "40.4",
+    "Gia ban": "3,759,616,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.702",
+    "Type": "1PN",
+    " Dien tich ": "57.7",
+    "Gia ban": "5,678,634,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.802",
+    "Type": "1PN",
+    " Dien tich ": "72.6",
+    "Gia ban": "6,426,447,300 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.806",
+    "Type": "1PN",
+    " Dien tich ": "69.7",
+    "Gia ban": "6,961,063,500 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.902",
+    "Type": "1PN",
+    " Dien tich ": "66.1",
+    "Gia ban": "6,055,183,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1002",
+    "Type": "1PN",
+    " Dien tich ": "72.7",
+    "Gia ban": "6,584,578,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1402",
+    "Type": "1PN",
+    " Dien tich ": "72.0",
+    "Gia ban": "6,712,854,300 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1430",
+    "Type": "1PN",
+    " Dien tich ": "66.5",
+    "Gia ban": "7,292,423,700 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1510",
+    "Type": "1PN",
+    " Dien tich ": "80.0",
+    "Gia ban": "7,814,876,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1602",
+    "Type": "1PN",
+    " Dien tich ": "73.0",
+    "Gia ban": "6,929,807,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1604",
+    "Type": "1PN",
+    " Dien tich ": "66.9",
+    "Gia ban": "7,187,339,700 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1605",
+    "Type": "1PN",
+    " Dien tich ": "68.8",
+    "Gia ban": "5,420,363,310 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1606",
+    "Type": "1PN",
+    " Dien tich ": "69.8",
+    "Gia ban": "7,498,899,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1607",
+    "Type": "1PN",
+    " Dien tich ": "80.1",
+    "Gia ban": "5,609,384,325 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1609",
+    "Type": "1PN",
+    " Dien tich ": "80.2",
+    "Gia ban": "5,610,314,790 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1610",
+    "Type": "1PN",
+    " Dien tich ": "80.5",
+    "Gia ban": "7,863,483,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1612",
+    "Type": "1PN",
+    " Dien tich ": "79.4",
+    "Gia ban": "7,804,548,900 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1615",
+    "Type": "1PN",
+    " Dien tich ": "101.2",
+    "Gia ban": "6,366,542,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1617",
+    "Type": "1PN",
+    " Dien tich ": "76.3",
+    "Gia ban": "6,017,552,100 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1619",
+    "Type": "1PN",
+    " Dien tich ": "68.6",
+    "Gia ban": "5,404,538,160 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1621",
+    "Type": "1PN",
+    " Dien tich ": "68.0",
+    "Gia ban": "5,362,956,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1622",
+    "Type": "1PN",
+    " Dien tich ": "87.1",
+    "Gia ban": "8,187,820,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1624",
+    "Type": "1PN",
+    " Dien tich ": "96.6",
+    "Gia ban": "9,074,620,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.708",
+    "Type": "2PN",
+    " Dien tich ": "147.7",
+    "Gia ban": "13,629,697,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.710",
+    "Type": "2PN",
+    " Dien tich ": "147.6",
+    "Gia ban": "13,624,592,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.726",
+    "Type": "2PN",
+    " Dien tich ": "137.1",
+    "Gia ban": "12,995,232,300 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.808",
+    "Type": "2PN",
+    " Dien tich ": "147.8",
+    "Gia ban": "13,781,757,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.810",
+    "Type": "2PN",
+    " Dien tich ": "147.8",
+    "Gia ban": "13,783,854,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.908",
+    "Type": "2PN",
+    " Dien tich ": "135.9",
+    "Gia ban": "13,115,045,700 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.910",
+    "Type": "2PN",
+    " Dien tich ": "159.8",
+    "Gia ban": "14,723,479,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.926",
+    "Type": "2PN",
+    " Dien tich ": "137.5",
+    "Gia ban": "13,354,398,900 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1008",
+    "Type": "2PN",
+    " Dien tich ": "160.0",
+    "Gia ban": "14,942,959,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1010",
+    "Type": "2PN",
+    " Dien tich ": "147.3",
+    "Gia ban": "14,014,593,900 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1206",
+    "Type": "2PN",
+    " Dien tich ": "159.7",
+    "Gia ban": "15,172,758,900 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1212",
+    "Type": "2PN",
+    " Dien tich ": "146.1",
+    "Gia ban": "14,202,851,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1232",
+    "Type": "2PN",
+    " Dien tich ": "137.3",
+    "Gia ban": "13,747,375,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1234",
+    "Type": "2PN",
+    " Dien tich ": "137.3",
+    "Gia ban": "13,753,362,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1406",
+    "Type": "2PN",
+    " Dien tich ": "146.6",
+    "Gia ban": "14,567,757,300 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1412",
+    "Type": "2PN",
+    " Dien tich ": "134.6",
+    "Gia ban": "13,520,438,100 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1506",
+    "Type": "2PN",
+    " Dien tich ": "146.4",
+    "Gia ban": "14,470,217,100 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1512",
+    "Type": "2PN",
+    " Dien tich ": "146.9",
+    "Gia ban": "14,565,811,500 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1534",
+    "Type": "2PN",
+    " Dien tich ": "136.8",
+    "Gia ban": "14,013,810,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V3.1614",
+    "Type": "2PN",
+    " Dien tich ": "134.4",
+    "Gia ban": "13,778,850,600 đ",
+    "": ""
+  },
+  {
+    "ID": "H4.104",
+    "Type": "KS",
+    " Dien tich ": "49.3",
+    "Gia ban": "3,971,336,850 đ",
+    "": ""
+  },
+  {
+    "ID": "H4.111",
+    "Type": "KS",
+    " Dien tich ": "56.0",
+    "Gia ban": "3,310,675,200 đ",
+    "": ""
+  },
+  {
+    "ID": "H4.114",
+    "Type": "KS",
+    " Dien tich ": "48.6",
+    "Gia ban": "3,925,982,700 đ",
+    "": ""
+  },
+  {
+    "ID": "H4.130",
+    "Type": "KS",
+    " Dien tich ": "48.9",
+    "Gia ban": "3,974,297,400 đ",
+    "": ""
+  },
+  {
+    "ID": "H4.134",
+    "Type": "KS",
+    " Dien tich ": "49.2",
+    "Gia ban": "3,995,937,900 đ",
+    "": ""
+  },
+  {
+    "ID": "H4.136",
+    "Type": "KS",
+    " Dien tich ": "47.8",
+    "Gia ban": "4,101,004,800 đ",
+    "": ""
+  },
+  {
+    "ID": "H4.601",
+    "Type": "KS",
+    " Dien tich ": "63.6",
+    "Gia ban": "3,369,226,500 đ",
+    "": ""
+  },
+  {
+    "ID": "H4.1619",
+    "Type": "KS",
+    " Dien tich ": "56.4",
+    "Gia ban": "4,214,602,800 đ",
+    "": ""
+  },
+  {
+    "ID": "H4.1719",
+    "Type": "KS",
+    " Dien tich ": "69.3",
+    "Gia ban": "3,896,128,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.118",
+    "Type": "1PN",
+    " Dien tich ": "81.0",
+    "Gia ban": "6,986,152,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.120",
+    "Type": "1PN",
+    " Dien tich ": "77.5",
+    "Gia ban": "6,427,495,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.220",
+    "Type": "1PN",
+    " Dien tich ": "73.8",
+    "Gia ban": "6,434,733,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.520",
+    "Type": "1PN",
+    " Dien tich ": "74.9",
+    "Gia ban": "6,748,520,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.708A",
+    "Type": "1PN",
+    " Dien tich ": "109.0",
+    "Gia ban": "9,278,148,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.810",
+    "Type": "1PN",
+    " Dien tich ": "74.8",
+    "Gia ban": "6,969,774,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.902",
+    "Type": "1PN",
+    " Dien tich ": "80.2",
+    "Gia ban": "8,214,451,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1012",
+    "Type": "1PN",
+    " Dien tich ": "73.7",
+    "Gia ban": "7,013,203,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1114",
+    "Type": "1PN",
+    " Dien tich ": "66.9",
+    "Gia ban": "6,432,354,900 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1420",
+    "Type": "1PN",
+    " Dien tich ": "73.7",
+    "Gia ban": "7,232,092,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1422",
+    "Type": "1PN",
+    " Dien tich ": "69.4",
+    "Gia ban": "6,814,027,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1520",
+    "Type": "1PN",
+    " Dien tich ": "67.2",
+    "Gia ban": "6,660,783,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1610",
+    "Type": "1PN",
+    " Dien tich ": "74.1",
+    "Gia ban": "7,418,061,900 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1720",
+    "Type": "1PN",
+    " Dien tich ": "67.0",
+    "Gia ban": "6,773,619,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1722",
+    "Type": "1PN",
+    " Dien tich ": "58.2",
+    "Gia ban": "6,418,854,900 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1801",
+    "Type": "1PN",
+    " Dien tich ": "104.6",
+    "Gia ban": "6,086,901,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1803",
+    "Type": "1PN",
+    " Dien tich ": "68.4",
+    "Gia ban": "4,801,680,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1804",
+    "Type": "1PN",
+    " Dien tich ": "80.3",
+    "Gia ban": "8,169,628,500 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1805",
+    "Type": "1PN",
+    " Dien tich ": "80.1",
+    "Gia ban": "5,024,592,900 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1807",
+    "Type": "1PN",
+    " Dien tich ": "92.7",
+    "Gia ban": "5,745,673,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1808",
+    "Type": "1PN",
+    " Dien tich ": "73.5",
+    "Gia ban": "7,503,526,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1810",
+    "Type": "1PN",
+    " Dien tich ": "68.7",
+    "Gia ban": "7,014,280,500 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1811",
+    "Type": "1PN",
+    " Dien tich ": "73.2",
+    "Gia ban": "5,138,640,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1812",
+    "Type": "1PN",
+    " Dien tich ": "67.9",
+    "Gia ban": "7,561,996,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1815",
+    "Type": "1PN",
+    " Dien tich ": "68.2",
+    "Gia ban": "5,505,786,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.218",
+    "Type": "2PN",
+    " Dien tich ": "148.8",
+    "Gia ban": "13,181,751,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.324",
+    "Type": "2PN",
+    " Dien tich ": "160.4",
+    "Gia ban": "14,702,005,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.402",
+    "Type": "2PN",
+    " Dien tich ": "183.8",
+    "Gia ban": "16,503,105,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.420",
+    "Type": "2PN",
+    " Dien tich ": "171.5",
+    "Gia ban": "15,623,226,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.514",
+    "Type": "2PN",
+    " Dien tich ": "136.6",
+    "Gia ban": "12,780,126,900 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.524",
+    "Type": "2PN",
+    " Dien tich ": "148.7",
+    "Gia ban": "13,593,440,700 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.608",
+    "Type": "2PN",
+    " Dien tich ": "160.8",
+    "Gia ban": "14,581,544,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.620",
+    "Type": "2PN",
+    " Dien tich ": "172.0",
+    "Gia ban": "15,975,604,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.802",
+    "Type": "2PN",
+    " Dien tich ": "183.9",
+    "Gia ban": "17,238,564,900 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.806",
+    "Type": "2PN",
+    " Dien tich ": "148.7",
+    "Gia ban": "14,053,769,100 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.818",
+    "Type": "2PN",
+    " Dien tich ": "172.1",
+    "Gia ban": "16,394,818,500 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.908",
+    "Type": "2PN",
+    " Dien tich ": "160.9",
+    "Gia ban": "15,067,110,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.916",
+    "Type": "2PN",
+    " Dien tich ": "148.5",
+    "Gia ban": "14,190,296,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1002",
+    "Type": "2PN",
+    " Dien tich ": "159.5",
+    "Gia ban": "15,764,742,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1020",
+    "Type": "2PN",
+    " Dien tich ": "172.2",
+    "Gia ban": "16,752,585,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1102",
+    "Type": "2PN",
+    " Dien tich ": "149.0",
+    "Gia ban": "15,120,338,400 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1112",
+    "Type": "2PN",
+    " Dien tich ": "161.0",
+    "Gia ban": "15,391,849,500 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1118",
+    "Type": "2PN",
+    " Dien tich ": "160.7",
+    "Gia ban": "15,365,006,100 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1402",
+    "Type": "2PN",
+    " Dien tich ": "183.9",
+    "Gia ban": "18,164,737,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1432",
+    "Type": "2PN",
+    " Dien tich ": "183.8",
+    "Gia ban": "18,159,555,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1518",
+    "Type": "2PN",
+    " Dien tich ": "136.2",
+    "Gia ban": "13,987,537,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1602",
+    "Type": "2PN",
+    " Dien tich ": "171.7",
+    "Gia ban": "17,561,277,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1608",
+    "Type": "2PN",
+    " Dien tich ": "161.1",
+    "Gia ban": "16,037,920,800 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1622",
+    "Type": "2PN",
+    " Dien tich ": "183.8",
+    "Gia ban": "18,522,912,600 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1702",
+    "Type": "2PN",
+    " Dien tich ": "160.3",
+    "Gia ban": "16,808,319,000 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1802",
+    "Type": "2PN",
+    " Dien tich ": "169.1",
+    "Gia ban": "17,874,700,200 đ",
+    "": ""
+  },
+  {
+    "ID": "V4.1806",
+    "Type": "2PN",
+    " Dien tich ": "148.6",
+    "Gia ban": "15,342,350,400 đ",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  },
+  {
+    "ID": "",
+    "Type": "",
+    " Dien tich ": "",
+    "Gia ban": "",
+    "": ""
+  }
+]
