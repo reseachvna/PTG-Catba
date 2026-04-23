@@ -44,7 +44,7 @@
                 </div>
                 <div class="form-group">
                     <label for="apartment-code">Mã căn hộ</label>
-                    <input type="text" id="apartment-code" placeholder="Ví dụ: F101, F102, V205...">
+                    <input type="text" id="apartment-code" placeholder="Ví dụ: V2.204...">
                 </div>
                 <div class="form-group">
                     <label for="payment-method">Lựa chọn phương án thanh toán</label>
@@ -63,9 +63,9 @@
 
         <div id="result-box">
             <h3 style="text-align: center; color: #1a365d; margin-top: 0; font-size: 22px;">CHI TIẾT PHIẾU TÍNH GIÁ</h3>
-            
             <div class="info-row"><span>Khách hàng:</span> <strong id="res-name"></strong></div>
             <div class="info-row"><span>Mã căn hộ:</span> <strong id="res-code"></strong></div>
+            <div class="info-row"><span>Loại căn:</span> <strong id="res-type"></strong></div>
             <div class="info-row"><span>Diện tích:</span> <strong id="res-area"></strong></div>
             <div class="info-row"><span>Giá bán gốc:</span> <strong id="res-original-price"></strong></div>
             <div class="info-row"><span>Mức chiết khấu:</span> <strong id="res-discount-rate"></strong></div>
@@ -86,13 +86,11 @@
     </div>
 
     <script>
-        // 1. Khai báo biến
         let dataCanHo = [];
 
-        // 2. Tự động tải data khi web mở lên
+        // Tự động tải data khi web mở lên
         window.onload = function() {
             const statusText = document.getElementById('data-status');
-            
             fetch('Data.json')
                 .then(response => {
                     if (!response.ok) throw new Error("Lỗi mạng 404");
@@ -101,46 +99,54 @@
                 .then(data => {
                     dataCanHo = data;
                     if(statusText) {
-                        statusText.innerText = "Đã kết nối thành công với kho dữ liệu (Data.json)!";
+                        statusText.innerText = "Đã kết nối thành công với kho dữ liệu!";
                         statusText.style.color = "green";
                     }
                 })
                 .catch(error => {
                     if(statusText) {
-                        statusText.innerText = "LỖI: Không tìm thấy file Data.json hoặc bị chặn bảo mật!";
+                        statusText.innerText = "LỖI: Không kết nối được dữ liệu!";
                         statusText.style.color = "red";
                     }
                     console.error("Lỗi Fetch:", error);
                 });
         };
 
-        // 3. Hàm định dạng tiền VNĐ
+        // Hàm định dạng số ra tiền VNĐ (VD: 7.664.931.000 ₫)
         const formatVND = (number) => {
             return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(number);
         };
 
-        // 4. Khai báo hàm xử lý vào trực tiếp Window (để chống lỗi not defined)
+        // Hàm tự động xóa các ký tự chữ (đ, phẩy, chấm) để trả về con số thuần túy
+        const parseGiaTien = (chuoiGia) => {
+            if (!chuoiGia) return 0;
+            // Xóa mọi ký tự không phải là số (giữ lại các chữ số)
+            const chuoiSo = String(chuoiGia).replace(/[^0-9]/g, '');
+            return Number(chuoiSo);
+        };
+
         window.xuLyTinhGia = function() {
             const tenKhachHang = document.getElementById('fullname').value;
             const maCanHoNhap = document.getElementById('apartment-code').value.toUpperCase().trim();
             const phuongAn = document.getElementById('payment-method').value;
 
-            // Kiểm tra mảng data
             if (dataCanHo.length === 0) {
                 alert("Hệ thống chưa tải được dữ liệu. Hãy đợi dòng trạng thái báo màu xanh lá cây!");
                 return;
             }
 
-            // Kiểm tra nhập liệu
             if (!maCanHoNhap) {
-                alert("Vui lòng nhập mã căn hộ (Ví dụ: V2.204)!");
+                alert("Vui lòng nhập mã căn hộ!");
                 return;
             }
 
-            // Tìm kiếm
-            const thongTinCanHo = dataCanHo.find(item => item.ma_can === maCanHoNhap);
+            // --- ĐÃ SỬA CỘT TÌM KIẾM THÀNH "ID" ---
+            const thongTinCanHo = dataCanHo.find(item => {
+                return item["ID"] && item["ID"].toUpperCase().trim() === maCanHoNhap;
+            });
+
             if (!thongTinCanHo) {
-                alert("Không tìm thấy mã căn: " + maCanHoNhap + ". Vui lòng kiểm tra lại file Data.json!");
+                alert("Không tìm thấy mã căn: " + maCanHoNhap + " trong hệ thống!");
                 document.getElementById('result-box').style.display = 'none';
                 return;
             }
@@ -152,7 +158,9 @@
             else if (phuongAn === '12-thang') tyLeChietKhau = 0.02;
             else if (phuongAn === '36-thang') tyLeChietKhau = 0;
 
-            const giaGoc = thongTinCanHo.gia_ban;
+            // --- ĐÃ SỬA LẤY GIÁ BÁN & CHUYỂN ĐỔI THÀNH SỐ ---
+            const giaGoc = parseGiaTien(thongTinCanHo["Gia ban"]);
+            
             const giaTriChietKhau = giaGoc * tyLeChietKhau;
             const giaSauChietKhau = giaGoc - giaTriChietKhau;
 
@@ -166,10 +174,12 @@
             const tyLeMoiDot = 100 / soDot;
             const tienMoiDot = giaSauChietKhau / soDot;
 
-            // Hiển thị kết quả
+            // --- ĐÃ SỬA GÁN DỮ LIỆU ĐẦU RA ---
             document.getElementById('res-name').innerText = tenKhachHang || "Khách lẻ";
-            document.getElementById('res-code').innerText = thongTinCanHo.ma_can;
-            document.getElementById('res-area').innerText = thongTinCanHo.dien_tich + " m2";
+            document.getElementById('res-code').innerText = thongTinCanHo["ID"];
+            document.getElementById('res-type').innerText = thongTinCanHo["Type"] || "Không xác định";
+            document.getElementById('res-area').innerText = thongTinCanHo[" Dien tich "] + " m2"; 
+            
             document.getElementById('res-original-price').innerText = formatVND(giaGoc);
             document.getElementById('res-discount-rate').innerText = (tyLeChietKhau * 100) + "%";
             document.getElementById('res-discount-amount').innerText = formatVND(giaTriChietKhau);
