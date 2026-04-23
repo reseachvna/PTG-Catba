@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bảng thông tin phiếu tính giá</title>
     <style>
-        /* === PHẦN CSS (GIAO DIỆN) === */
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #ffffff; color: #000000; }
         .container { max-width: 900px; margin: 50px auto; text-align: center; }
         h1 { font-size: 24px; font-weight: bold; margin-bottom: 5px; text-transform: uppercase; }
@@ -88,7 +87,6 @@
     <script>
         let dataCanHo = [];
 
-        // Tự động tải data khi web mở lên
         window.onload = function() {
             const statusText = document.getElementById('data-status');
             fetch('Data.json')
@@ -99,7 +97,7 @@
                 .then(data => {
                     dataCanHo = data;
                     if(statusText) {
-                        statusText.innerText = "Đã kết nối thành công với kho dữ liệu!";
+                        statusText.innerText = "Đã kết nối thành công với kho dữ liệu chuẩn!";
                         statusText.style.color = "green";
                     }
                 })
@@ -112,17 +110,8 @@
                 });
         };
 
-        // Hàm định dạng số ra tiền VNĐ (VD: 7.664.931.000 ₫)
         const formatVND = (number) => {
             return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(number);
-        };
-
-        // Hàm tự động xóa các ký tự chữ (đ, phẩy, chấm) để trả về con số thuần túy
-        const parseGiaTien = (chuoiGia) => {
-            if (!chuoiGia) return 0;
-            // Xóa mọi ký tự không phải là số (giữ lại các chữ số)
-            const chuoiSo = String(chuoiGia).replace(/[^0-9]/g, '');
-            return Number(chuoiSo);
         };
 
         window.xuLyTinhGia = function() {
@@ -131,7 +120,7 @@
             const phuongAn = document.getElementById('payment-method').value;
 
             if (dataCanHo.length === 0) {
-                alert("Hệ thống chưa tải được dữ liệu. Hãy đợi dòng trạng thái báo màu xanh lá cây!");
+                alert("Hệ thống chưa tải được dữ liệu. Hãy đợi dòng trạng thái báo màu xanh!");
                 return;
             }
 
@@ -140,9 +129,9 @@
                 return;
             }
 
-            // --- ĐÃ SỬA CỘT TÌM KIẾM THÀNH "ID" ---
+            // Đồng bộ: Tìm kiếm theo trường ma_can
             const thongTinCanHo = dataCanHo.find(item => {
-                return item["ID"] && item["ID"].toUpperCase().trim() === maCanHoNhap;
+                return item.ma_can && item.ma_can.toUpperCase().trim() === maCanHoNhap;
             });
 
             if (!thongTinCanHo) {
@@ -151,20 +140,18 @@
                 return;
             }
 
-            // Tính chiết khấu
             let tyLeChietKhau = 0; 
             if (phuongAn === '30-ngay') tyLeChietKhau = 0.10;
             else if (phuongAn === 'tts-50') tyLeChietKhau = 0.05;
             else if (phuongAn === '12-thang') tyLeChietKhau = 0.02;
             else if (phuongAn === '36-thang') tyLeChietKhau = 0;
 
-            // --- ĐÃ SỬA LẤY GIÁ BÁN & CHUYỂN ĐỔI THÀNH SỐ ---
-            const giaGoc = parseGiaTien(thongTinCanHo["Gia ban"]);
+            // Đồng bộ: Lấy giá gốc từ trường gia_tien
+            const giaGoc = thongTinCanHo.gia_tien;
             
             const giaTriChietKhau = giaGoc * tyLeChietKhau;
             const giaSauChietKhau = giaGoc - giaTriChietKhau;
 
-            // Tính số đợt
             let soDot = 1;
             if (phuongAn === '30-ngay') soDot = 1;
             else if (phuongAn === 'tts-50') soDot = 2;
@@ -174,11 +161,11 @@
             const tyLeMoiDot = 100 / soDot;
             const tienMoiDot = giaSauChietKhau / soDot;
 
-            // --- ĐÃ SỬA GÁN DỮ LIỆU ĐẦU RA ---
+            // Đồng bộ: Đẩy dữ liệu ra giao diện theo đúng tên cột mới
             document.getElementById('res-name').innerText = tenKhachHang || "Khách lẻ";
-            document.getElementById('res-code').innerText = thongTinCanHo["ID"];
-            document.getElementById('res-type').innerText = thongTinCanHo["Type"] || "Không xác định";
-            document.getElementById('res-area').innerText = thongTinCanHo[" Dien tich "] + " m2"; 
+            document.getElementById('res-code').innerText = thongTinCanHo.ma_can;
+            document.getElementById('res-type').innerText = thongTinCanHo.Type || "Không xác định"; // Sửa thành Type
+            document.getElementById('res-area').innerText = thongTinCanHo.dien_tich + " m2"; 
             
             document.getElementById('res-original-price').innerText = formatVND(giaGoc);
             document.getElementById('res-discount-rate').innerText = (tyLeChietKhau * 100) + "%";
