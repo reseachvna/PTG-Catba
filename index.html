@@ -301,9 +301,11 @@
             return alert("⚠️ Vui lòng nhập đầy đủ Tên và Số điện thoại/Mã NV!");
         }
 
-        const nameRegex = /^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂưăạảấầẩẫậắằẳẵặẹẻẽềềểỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỮỰỲỴÝỶỸửữựỳỵỷỹ\s]+$/;
+// 2. Bộ lọc Tên chuẩn Unicode: Hỗ trợ 100% Tiếng Việt có dấu, cấm số và ký tự lạ
+        const nameRegex = /^[\p{L}\s]+$/u;
         if (!nameRegex.test(name) || name.length < 2) {
             return alert("⚠️ TÊN KHÔNG HỢP LỆ!\nVui lòng nhập đúng Họ và Tên (Không dùng số hoặc ký tự đặc biệt).");
+        }
         }
 
         const phoneRegex = /^[a-zA-Z0-9]+$/;
