@@ -293,31 +293,26 @@
         }
     }
 
-function saveSalesInfo() {
+    function saveSalesInfo() {
         const name = document.getElementById('sale-name').value.trim();
         const phone = document.getElementById('sale-phone').value.trim();
         
-        // 1. Kiểm tra rỗng
         if (!name || !phone) {
             return alert("⚠️ Vui lòng nhập đầy đủ Tên và Số điện thoại/Mã NV!");
         }
 
-        // 2. Bộ lọc Tên: Chỉ cho phép chữ cái (hỗ trợ tiếng Việt) và dấu cách. Không được dùng số hay ký tự @#$!
         const nameRegex = /^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂưăạảấầẩẫậắằẳẵặẹẻẽềềểỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỮỰỲỴÝỶỸửữựỳỵỷỹ\s]+$/;
         if (!nameRegex.test(name) || name.length < 2) {
             return alert("⚠️ TÊN KHÔNG HỢP LỆ!\nVui lòng nhập đúng Họ và Tên (Không dùng số hoặc ký tự đặc biệt).");
         }
 
-        // 3. Bộ lọc SĐT / Mã NV: Chỉ cho phép chữ cái và số viết liền, không dấu cách, từ 4 đến 15 ký tự
         const phoneRegex = /^[a-zA-Z0-9]+$/;
         if (!phoneRegex.test(phone) || phone.length < 4 || phone.length > 15) {
             return alert("⚠️ SĐT / MÃ NV KHÔNG HỢP LỆ!\nVui lòng viết liền không dấu, độ dài từ 4-15 ký tự (Ví dụ: 0987654321 hoặc NV123).");
         }
 
-        // Vượt qua hết các vòng kiểm tra trên mới cho lưu và ẩn Modal
         localStorage.setItem('saleInfo', JSON.stringify({ name: name, phone: phone }));
         checkSalesLogin();
-    }
     }
 
     function logoutSales() {
@@ -331,7 +326,7 @@ function saveSalesInfo() {
 
     // ===== KHỞI CHẠY APP =====
     function initApp() {
-        // Kiểm tra Sales
+        // Kiểm tra đăng nhập
         checkSalesLogin();
 
         const statusEl = document.getElementById('data-status');
@@ -352,7 +347,7 @@ function saveSalesInfo() {
                 statusEl.style.background = "#f0fdf4";
             })
             .catch(err => {
-                statusEl.innerHTML = "🔴 Lỗi kết nối Data.json! Vui lòng đẩy code lên hệ thống.";
+                statusEl.innerHTML = "🔴 Lỗi kết nối Data.json! Vui lòng đẩy file Data.json lên cùng thư mục GitHub.";
                 statusEl.style.color = "red";
                 statusEl.style.background = "#fef2f2";
             });
@@ -541,7 +536,7 @@ function saveSalesInfo() {
         document.getElementById('btn-goto-index2').style.display = 'inline-flex';
         window.scrollTo({ top: document.getElementById('result-box').offsetTop, behavior: 'smooth' });
 
-        // ===== BẮN DỮ LIỆU VỀ GOOGLE SHEET (Ngầm) =====
+        // GỬI DỮ LIỆU VỀ GOOGLE SHEETS
         sendDataToSheet(khachHang, codeInput, basePrice, basePrice - currentPrice, currentPrice);
     }
 
@@ -666,7 +661,6 @@ function saveSalesInfo() {
         container.innerHTML = html;
     }
 
-    // ==== HÀM GỬI DỮ LIỆU LÊN GOOGLE SHEET ====
     function sendDataToSheet(khachHang, maCan, giaNY, tongCK, giaSauCK) {
         const saleInfoStr = localStorage.getItem('saleInfo');
         let saleName = "Chưa khai báo";
@@ -688,7 +682,6 @@ function saveSalesInfo() {
             giaSauCK: giaSauCK
         };
 
-        // Gửi ngầm (Bắn và quên - Fire and forget)
         fetch("https://script.google.com/macros/s/AKfycbzzr1QsZcF53GndEuZERvJ4i8DBougOqgMpCQbFZEH7iqbCcbwvVW-k8Lok4NtYMlVkeA/exec", {
             method: 'POST',
             mode: 'no-cors', 
@@ -734,10 +727,11 @@ function saveSalesInfo() {
             gap = 6;
         } else {
             handoverDate.setDate(handoverDate.getDate() + 1080);
-            gap = 6; 
+            gap = 6;
         }
 
         let revStartDate = new Date(handoverDate.getFullYear(), handoverDate.getMonth() + 1, 1);
+
         const calcCK = originalPrice - finalPrice;
 
         const data = {
