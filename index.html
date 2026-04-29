@@ -6,13 +6,17 @@
     <title>Phiếu Tính Giá Flamingo Cát Bà - Theo CSBH Tháng 4/2026</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; color: #333; line-height: 1.6; margin: 0; padding: 20px;}
-        .container { max-width: 1200px; margin: 10px auto; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .container { max-width: 1200px; margin: 10px auto; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); position: relative;}
         h1 { color: #1a365d; text-transform: uppercase; margin-bottom: 5px; font-size: 26px; text-align: center;}
         h2 { color: #2d3748; font-weight: normal; margin-top: 0; margin-bottom: 30px; font-size: 20px; text-align: center;}
         
         #data-status { font-weight: bold; margin-bottom: 25px; padding: 10px; border-radius: 6px; display: inline-block; background: #f1f5f9; text-align: center;}
 
-        /* Form styling */
+        /* CSS Modal Đăng nhập Sales */
+        .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.7); display: none; align-items: center; justify-content: center; z-index: 9999; backdrop-filter: blur(5px);}
+        .modal-content { background: #fff; padding: 35px 30px; border-radius: 12px; width: 90%; max-width: 420px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+        .sale-greeting-box { text-align: right; margin-bottom: 10px; font-size: 14px; color: #4a5568; }
+
         .form-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; text-align: left; margin-bottom: 30px; }
         .form-group { display: flex; flex-direction: column; }
         .form-group label { font-weight: 600; margin-bottom: 8px; color: #4a5568; }
@@ -23,7 +27,6 @@
         .mode-selector { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 20px; display: flex; gap: 30px; align-items: center; justify-content: center; }
         .mode-selector label { cursor: pointer; font-weight: bold; display: flex; align-items: center; gap: 8px; }
         
-        /* Chèn CSS bảng Chiết khấu Ibiza sang */
         .custom-discount-box { background: #fffaf0; border: 1px dashed #ed8936; padding: 20px; border-radius: 8px; margin-top: 10px; display: none; }
         .extra-discount-container { background: #ebf8ff; border: 1px dashed #3182ce; padding: 20px; border-radius: 8px; margin-top: 10px; }
         .custom-table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
@@ -35,14 +38,11 @@
         .btn-main { background: #1a365d; color: white; border: none; padding: 18px 40px; border-radius: 30px; font-size: 20px; font-weight: bold; cursor: pointer; transition: 0.3s; width: 100%; margin-top: 10px; }
         .btn-main:hover { background: #2c5282; transform: translateY(-2px); }
 
-        /* Print Button & Next Button */
         .btn-print { background: #38a169; color: white; border: none; padding: 10px 20px; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
-        .btn-print:hover { background: #2f855a; }
         .btn-next { background: #2b6cb0; color: white; border: none; padding: 10px 20px; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
         .print-header-actions { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #1a365d; margin-bottom: 20px; padding-bottom: 10px; }
         .action-buttons { display: flex; gap: 10px; }
 
-        /* Result styling */
         #result-box { display: none; margin-top: 40px; padding-top: 30px; border-top: 2px solid #edf2f7; text-align: left; }
         .result-header { color: #1a365d; margin: 0; font-size: 22px; }
         .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 25px; }
@@ -51,7 +51,7 @@
         .info-item strong { color: #2d3748; }
         
         .price-highlight { background: #fff5f5; padding: 20px; border-radius: 8px; border: 1px solid #feb2b2; margin-bottom: 30px; }
-        .final-price { color: #e53e3e; font-size: 22px; font-weight: bold; }
+        .final-price { color: #e53e3e; font-size: 22px; font-weight: bold; } 
         .discount-detail { font-size: 15px; color: #4a5568; margin-top: 10px; padding-left: 20px; border-left: 3px solid #1a365d; }
 
         .milestone-container { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
@@ -67,25 +67,15 @@
         .copyright-footer { text-align: right; margin-top: 20px; border-top: 1px dashed #cbd5e0; padding-top: 10px; font-size: 12px; color: #a0aec0; font-style: italic; }
         .copyright-footer strong { color: #4a5568; font-weight: bold; font-style: normal;}
 
-        /* BÊ TOÀN BỘ CSS ÉP TRANG A4 VÀ MOBILE TỪ IBIZA SANG ĐÂY */
         @page { size: A4 portrait; margin: 10mm 10mm; }
-        
+
         @media print {
-            .no-print { display: none !important; }
-            body { font-size: 12px; line-height: 1.4; color: #000; background: #fff; }
-            .container { box-shadow: none; padding: 0; margin: 0; width: 100%; max-width: 100%; border: none;}
-            #result-box { display: block !important; margin-top: 0; padding-top: 0; border: none; }
-            #print-title-area { display: block !important; margin-bottom: 15px; }
-            h1 { font-size: 20px; margin-bottom: 2px; }
-            h2 { font-size: 15px; margin-bottom: 15px; }
-            .result-header { font-size: 16px; margin-bottom: 10px; }
-            .info-grid { gap: 15px; margin-bottom: 15px; }
-            .info-item { padding-bottom: 2px; }
-            .price-highlight { padding: 10px 15px; margin-bottom: 15px; border-color: #ccc; background: transparent; }
-            .final-price-container { margin-top: 10px; border-top: 1px solid #ccc; background: transparent; }
-            table.schedule-table { margin-top: 10px; }
-            .schedule-table th, .schedule-table td { padding: 6px; font-size: 12px; border-color: #999; color: #000; }
-            tr { page-break-inside: avoid; }
+            body { background: #fff; padding: 0; margin: 0; font-size: 12px;}
+            .container { box-shadow: none; border-radius: 0; padding: 0; max-width: 100%; margin: 0; }
+            .no-print, .mode-selector, .form-grid, .btn-main, #custom-discount-box, #data-status { display: none !important; }
+            #result-box { display: block !important; border: none; margin-top: 0; padding-top: 0; }
+            .price-highlight { border: 1px solid #ccc; background: #fff; } 
+            * { -webkit-print-color-adjust: exact !important; color-adjust: exact !important; }
             .copyright-footer { color: #666; border-top: 1px solid #999; margin-top: 10px; padding-top: 5px; }
         }
 
@@ -107,7 +97,31 @@
 </head>
 <body>
 
+<div id="sales-modal" class="modal-overlay no-print">
+    <div class="modal-content">
+        <h3 style="color:#1a365d; margin-top:0; font-size: 20px;">ĐĂNG NHẬP HỆ THỐNG</h3>
+        <p style="font-size:14px; color:#666; margin-bottom: 25px;">Vui lòng nhập thông tin để ghi nhận báo giá.</p>
+        
+        <div class="form-group" style="margin-bottom: 15px; text-align:left;">
+            <label>Tên chuyên viên tư vấn (*)</label>
+            <input type="text" id="sale-name" placeholder="Ví dụ: Nguyễn Văn A">
+        </div>
+        <div class="form-group" style="margin-bottom: 25px; text-align:left;">
+            <label>Số điện thoại / Mã NV (*)</label>
+            <input type="text" id="sale-phone" placeholder="Ví dụ: 0987654321">
+        </div>
+        
+        <button class="btn-main" style="margin-top:0;" onclick="saveSalesInfo()">XÁC NHẬN BẮT ĐẦU</button>
+    </div>
+</div>
+
 <div class="container">
+    
+    <div id="sale-greeting" class="sale-greeting-box no-print" style="display:none;">
+        👤 Đang tư vấn bởi: <strong id="current-sale-name" style="color:#1a365d;">...</strong> 
+        <a href="#" onclick="logoutSales(); return false;" style="color:#e53e3e; text-decoration:none; margin-left: 10px; font-size: 13px;">(Đăng xuất)</a>
+    </div>
+
     <div style="text-align: center;" class="no-print">
         <h1>Bảng tính giá & Tiến độ thanh toán</h1>
         <h2>Dự án Flamingo Cát Bà Beach Resort</h2>
@@ -134,7 +148,7 @@
         </div>
         
         <div class="form-group">
-            <label>Nhóm sản phẩm (Đặc thù Cát Bà)</label>
+            <label>Nhóm sản phẩm</label>
             <select id="apt-group" onchange="checkSpecialConditions()">
                 <option value="1PN">Căn Khách sạn / Studio / 1PN</option>
                 <option value="2PN">Căn hộ 2PN / 3PN</option>
@@ -263,9 +277,44 @@
 <script>
     let masterData = [];
 
-    function initApp() {
-        const statusEl = document.getElementById('data-status');
+    // ===== LOGIC KIỂM TRA ĐĂNG NHẬP SALES =====
+    function checkSalesLogin() {
+        const saleInfo = localStorage.getItem('saleInfo');
+        if (!saleInfo) {
+            document.getElementById('sales-modal').style.display = 'flex';
+            document.getElementById('sale-greeting').style.display = 'none';
+        } else {
+            const info = JSON.parse(saleInfo);
+            document.getElementById('current-sale-name').innerText = info.name;
+            document.getElementById('sales-modal').style.display = 'none';
+            document.getElementById('sale-greeting').style.display = 'block';
+        }
+    }
+
+    function saveSalesInfo() {
+        const name = document.getElementById('sale-name').value.trim();
+        const phone = document.getElementById('sale-phone').value.trim();
+        if (!name || !phone) return alert("Vui lòng nhập đầy đủ Tên và Số điện thoại/Mã NV!");
         
+        localStorage.setItem('saleInfo', JSON.stringify({ name: name, phone: phone }));
+        checkSalesLogin();
+    }
+
+    function logoutSales() {
+        if(confirm("Bạn có chắc chắn muốn thoát tài khoản này?")) {
+            localStorage.removeItem('saleInfo');
+            document.getElementById('sale-name').value = '';
+            document.getElementById('sale-phone').value = '';
+            checkSalesLogin();
+        }
+    }
+
+    // ===== KHỞI CHẠY APP =====
+    function initApp() {
+        // Kiểm tra Sales
+        checkSalesLogin();
+
+        const statusEl = document.getElementById('data-status');
         const today = new Date();
         document.getElementById('deposit-date').valueAsDate = today;
         document.getElementById('current-print-date').innerText = getFormattedDate(today);
@@ -298,7 +347,6 @@
         document.getElementById('cond-50-box').style.display = (group === '2PN' && plan !== '30') ? 'flex' : 'none';
     }
 
-    // ==== HÀM UI CHO TÍNH NĂNG CHIẾT KHẤU TỪ IBIZA ====
     function toggleMode() {
         const mode = document.querySelector('input[name="calc-mode"]:checked').value;
         document.getElementById('custom-discount-box').style.display = (mode === 'custom' ? 'block' : 'none');
@@ -350,7 +398,6 @@
         document.getElementById('custom-body').insertAdjacentHTML('beforeend', row);
     }
 
-    // ==== HÀM FORMAT VÀ TÍNH TOÁN ====
     function formatMoney(num) {
         return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Math.round(num));
     }
@@ -377,6 +424,7 @@
     function calculate() {
         const codeInput = document.getElementById('apt-code').value.toUpperCase().trim();
         const depositDate = document.getElementById('deposit-date').value;
+        const khachHang = document.getElementById('fullname').value || "Khách lẻ";
         
         if (masterData.length === 0) return alert("Hệ thống chưa tải xong dữ liệu!");
         if (!codeInput) return alert("Vui lòng nhập mã căn hộ!");
@@ -402,9 +450,7 @@
         
         if(basePrice === 0) return alert("Lỗi: Không tìm thấy giá tiền của căn hộ này.");
 
-        // ===== LOGIC TÍNH GIÁ ĐÃ NÂNG CẤP =====
         if (mode === 'auto') {
-            // Bước 1: Chiết khấu cố định của Cát Bà (Ưu tiên số 1)
             if (group === '2PN' && (pay50 || plan === '30')) {
                 let tienGiam1 = currentPrice * 0.05;
                 breakdown += `• Chiết khấu căn 2PN/3PN (5%): <strong>-${formatMoney(tienGiam1)}</strong><br>`;
@@ -420,7 +466,6 @@
                 currentPrice -= tienGiam2;
             }
 
-            // Bước 2: Chiết khấu bổ sung tùy chọn (Của Ibiza ghép vào)
             if (document.getElementById('enable-extra').checked) {
                 const rows = document.querySelectorAll('#extra-body tr');
                 rows.forEach((row, index) => {
@@ -444,7 +489,6 @@
             }
 
         } else {
-            // Chế độ thủ công (Từ Ibiza ghép vào)
             const names = document.querySelectorAll('.c-name');
             const rates = document.querySelectorAll('.c-rate');
             names.forEach((n, idx) => {
@@ -461,7 +505,7 @@
 
         currentPrice = Math.round(currentPrice / 1000) * 1000;
 
-        document.getElementById('out-name').innerText = document.getElementById('fullname').value || "Khách lẻ";
+        document.getElementById('out-name').innerText = khachHang;
         document.getElementById('out-code').innerText = codeInput;
         document.getElementById('out-type').innerText = layGiaTriCot(apt, "Type") || layGiaTriCot(apt, "loai_can") || "Không xác định";
         document.getElementById('out-area').innerText = layGiaTriCot(apt, "dien_tich") || "0";
@@ -476,9 +520,11 @@
         document.getElementById('result-box').style.display = 'block';
         document.getElementById('btn-goto-index2').style.display = 'inline-flex';
         window.scrollTo({ top: document.getElementById('result-box').offsetTop, behavior: 'smooth' });
+
+        // ===== BẮN DỮ LIỆU VỀ GOOGLE SHEET (Ngầm) =====
+        sendDataToSheet(khachHang, codeInput, basePrice, basePrice - currentPrice, currentPrice);
     }
 
-    // ==== TIẾN ĐỘ THANH TOÁN (GIỮ NGUYÊN 100% CỦA CÁT BÀ) ====
     function renderSchedule(group, plan, pay50, finalPrice, depositDateStr) {
         const container = document.getElementById('schedule-content');
         container.innerHTML = "";
@@ -600,6 +646,39 @@
         container.innerHTML = html;
     }
 
+    // ==== HÀM GỬI DỮ LIỆU LÊN GOOGLE SHEET ====
+    function sendDataToSheet(khachHang, maCan, giaNY, tongCK, giaSauCK) {
+        const saleInfoStr = localStorage.getItem('saleInfo');
+        let saleName = "Chưa khai báo";
+        let salePhone = "Chưa khai báo";
+        
+        if (saleInfoStr) {
+            const info = JSON.parse(saleInfoStr);
+            saleName = info.name;
+            salePhone = info.phone;
+        }
+
+        const payload = {
+            saleName: saleName,
+            salePhone: salePhone,
+            khachHang: khachHang,
+            maCan: maCan,
+            giaNiemYet: giaNY,
+            tongChietKhau: tongCK,
+            giaSauCK: giaSauCK
+        };
+
+        // Gửi ngầm (Bắn và quên - Fire and forget)
+        fetch("https://script.google.com/macros/s/AKfycbzzr1QsZcF53GndEuZERvJ4i8DBougOqgMpCQbFZEH7iqbCcbwvVW-k8Lok4NtYMlVkeA/exec", {
+            method: 'POST',
+            mode: 'no-cors', 
+            headers: {
+                'Content-Type': 'text/plain;charset=utf-8',
+            },
+            body: JSON.stringify(payload)
+        }).catch(err => console.log("Lưu log sheet thất bại:", err));
+    }
+
     function inPhieu() {
         document.getElementById('print-title-area').style.display = 'block';
         window.print();
@@ -608,9 +687,7 @@
         }, 500);
     }
 
-    // ==== HÀM GÓI DỮ LIỆU ĐỂ CHUYỂN SANG INDEX 2 ====
     function transferToIndex2() {
-        // Lấy con số đã làm tròn từ giao diện
         const originalPrice = Number(document.getElementById('out-price-raw').innerText.replace(/[^0-9]/g, '')) || 0;
         const finalPrice = Number(document.getElementById('out-price-final').innerText.replace(/[^0-9]/g, '')) || 0;
         
@@ -622,11 +699,9 @@
         let depDate = new Date();
         if (depositDateStr) { depDate = new Date(depositDateStr); }
 
-        // Ngày HĐMB = Cọc + 10 ngày
         let hdmbDate = new Date(depDate);
         hdmbDate.setDate(hdmbDate.getDate() + 10); 
 
-        // Tính ngày bàn giao QSD (Theo tiến độ Cát Bà)
         let handoverDate = new Date(hdmbDate); 
         let gap = 6;
 
@@ -635,18 +710,14 @@
             handoverDate.setDate(handoverDate.getDate() + 30); 
             gap = 1;
         } else if (plan === '12') {
-            // Theo lịch Cát Bà, đợt bàn giao nằm ở T+360
             handoverDate.setDate(handoverDate.getDate() + 360);
-            gap = 6; // Đợt đóng tiền là T+360 nhưng cứ để 6 tháng để khớp format
+            gap = 6;
         } else {
-            // Theo lịch Cát Bà 36T, đợt bàn giao nằm ở T+1080
             handoverDate.setDate(handoverDate.getDate() + 1080);
             gap = 6; 
         }
 
-        // Bắt đầu tính doanh thu từ ngày Mùng 1 của tháng kế tiếp sau Bàn giao
         let revStartDate = new Date(handoverDate.getFullYear(), handoverDate.getMonth() + 1, 1);
-
         const calcCK = originalPrice - finalPrice;
 
         const data = {
