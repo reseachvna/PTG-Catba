@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bảng tính doanh thu bán phòng</title>
+    <title>Phiếu Tính Dòng Tiền Cát Bà</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; color: #333; line-height: 1.4; margin: 0; padding: 20px;}
         .container { max-width: 1100px; margin: 0 auto; background: #fff; padding: 25px 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
@@ -14,6 +14,20 @@
         .nav-back { color: #3182ce; text-decoration: none; font-weight: bold; padding: 6px 12px; border-radius: 4px; background: #ebf8ff; border: 1px solid #bee3f8; font-size: 14px;}
         .btn-print { background: #38a169; color: white; border: none; padding: 8px 16px; border-radius: 6px; font-weight: bold; cursor: pointer; font-size: 14px; }
         
+        /* Highlight 50% & Benefits */
+        .lever-box { background: #fff5f5; border: 2px solid #feb2b2; padding: 20px; border-radius: 12px; margin-bottom: 25px; text-align: center; }
+        .lever-title { color: #c53030; font-weight: bold; font-size: 18px; margin-bottom: 15px; text-transform: uppercase;}
+        
+        .benefits-list { background: #fff; border: 1px dashed #d53f8c; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: left; }
+        .benefits-list h4 { color: #d53f8c; margin-top: 0; margin-bottom: 10px; font-size: 15px; text-transform: uppercase;}
+        .benefits-list ul { margin: 0; padding-left: 20px; color: #4a5568; font-size: 14px; line-height: 1.6; }
+        .benefits-list li { margin-bottom: 6px; }
+
+        .lever-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; }
+        .lever-item { background: white; padding: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .lever-label { font-size: 12px; color: #718096; display: block; margin-bottom: 5px;}
+        .lever-val { font-size: 18px; font-weight: bold; color: #2d3748; }
+
         .top-panels { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
         .data-panel { border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px; background: #fff; }
         .data-panel h3 { margin-top: 0; color: #1a365d; font-size: 14px; border-bottom: 1px solid #eee; padding-bottom: 8px; margin-bottom: 10px;}
@@ -33,7 +47,7 @@
         .text-red { color: #e53e3e; font-weight: bold; }
         
         .btn-calc { background: #d53f8c; color: white; border: none; padding: 10px 30px; font-size: 15px; font-weight: bold; border-radius: 30px; cursor: pointer; display: block; margin: 0 auto 20px auto; }
-        
+
         #result-area { display: none; } 
         
         .copyright-footer { text-align: right; margin-top: 20px; border-top: 1px dashed #cbd5e0; padding-top: 10px; font-size: 12px; color: #a0aec0; font-style: italic; }
@@ -46,6 +60,9 @@
             .container { box-shadow: none; padding: 0; border: none; max-width: 100%; width: 100%; margin: 0;} 
             h1 { font-size: 18px; margin-bottom: 2px; }
             h2 { font-size: 14px; margin-bottom: 12px; }
+            .lever-box { border: 1px solid #999; background: #fff !important; padding: 10px; }
+            .benefits-list { border: 1px solid #ccc; background: #f9f9f9; padding: 10px; }
+            .lever-item { border: 1px solid #eee; box-shadow: none; }
             .top-panels { gap: 10px; margin-bottom: 10px; }
             .data-panel { padding: 8px; border: 1px solid #ccc; background-color: #fff !important; margin-bottom: 5px; }
             .data-panel h3 { font-size: 13px; margin-bottom: 5px; padding-bottom: 4px; }
@@ -73,56 +90,90 @@
 <body>
 <div class="container">
     <div class="header-actions no-print">
-        <a href="#" onclick="window.history.back(); return false;" class="nav-back">← Quay lại Phiếu tính giá</a>
+        <a href="#" onclick="window.history.back(); return false;" class="nav-back">← Quay lại Bảng tính giá</a>
         <button class="btn-print" onclick="window.print()">🖨️ TẢI PDF / IN PHIẾU</button>
     </div>
 
     <h1>Dòng thu từ kinh doanh cho thuê</h1>
-    <h2>(Dự kiến 24 tháng kể từ khi nhận bàn giao QSD)</h2>
+    <h2>(Dự kiến 24 tháng đầu tiên tại Flamingo Cát Bà Beach Resort)</h2>
+
+    <input type="hidden" id="hdmb-month" value="">
+    <input type="hidden" id="hdmb-year" value="">
+
+    <div class="lever-box">
+        <div class="lever-title">Sở hữu & Kinh doanh chỉ với 50% vốn tự có</div>
+        
+        <div class="benefits-list">
+            <h4>🔥 TỔNG HỢP ĐẶC QUYỀN VÀ LỢI ÍCH KHÁCH HÀNG</h4>
+            <ul>
+                <li><strong>Giá trị chiết khấu nhận được:</strong> <span id="disp-tong-ck" style="color: #e53e3e; font-weight: bold; font-size: 15px;">0 VNĐ</span> (Đã được giảm trực tiếp vào giá bán).</li>
+                <li><strong>Đặc quyền nhận nhà sớm:</strong> Khách hàng thanh toán <strong style="color: #d53f8c;">50% giá trị HĐMB</strong> đã được nhận bàn giao quyền sử dụng căn hộ.</li>
+                <li><strong>Tối ưu dòng tiền:</strong> Hưởng trọn vẹn doanh thu khai thác kinh doanh trong <strong style="color: #38a169;">2 năm đầu với chính sách Miễn phí dịch vụ vận hành</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="lever-grid">
+            <div class="lever-item">
+                <span class="lever-label">Giá bán sau CK</span>
+                <span class="lever-val" id="disp-gia-sau-ck">0 VNĐ</span>
+            </div>
+            <div class="lever-item" style="border: 2px solid #d53f8c;">
+                <span class="lever-label" style="color:#d53f8c; font-weight:bold;">Vốn bỏ ra (50% GTSP)</span>
+                <span class="lever-val" id="disp-von-50" style="color:#d53f8c;">0 VNĐ</span>
+            </div>
+            <div class="lever-item">
+                <span class="lever-label">Thời hạn nộp vốn</span>
+                <span class="lever-val">Trong 180 ngày</span>
+            </div>
+        </div>
+        <p style="margin-top: 15px; font-size: 13px; color: #666; font-style: italic;">
+            * Khách hàng được nhận bàn giao Quyền sử dụng căn hộ để đưa vào vận hành ngay khi hoàn thành 50% giá trị HĐMB.
+        </p>
+    </div>
 
     <div class="top-panels">
         <div class="data-panel" style="background-color: #f7fafc;">
-            <h3>🔗 Dữ liệu liên kết (Đồng bộ từ PTG)</h3>
+            <h3>🔗 Dữ liệu liên kết (Đồng bộ từ PTTT)</h3>
             <div class="grid-2">
                 <div class="form-group"><label>Khách hàng</label><input type="text" id="in-ten-kh" class="input-readonly" readonly placeholder="Trống"></div>
                 <div class="form-group"><label>Mã căn hộ</label><input type="text" id="in-ma-can" class="input-readonly" readonly placeholder="Trống"></div>
-                <div class="form-group"><label>Giá niêm yết (VNĐ)</label><input type="text" id="in-gia-niem-yet" class="input-readonly" readonly></div>
-                <div class="form-group"><label>Tổng chiết khấu (VNĐ)</label><input type="text" id="in-tong-ck" class="input-readonly" readonly></div>
-                <div class="form-group"><label>Tháng bắt đầu kinh doanh</label><input type="number" id="in-thang-bg" class="input-readonly" readonly></div>
-                <div class="form-group"><label>Năm bắt đầu kinh doanh</label><input type="number" id="in-nam-bg" class="input-readonly" readonly></div>
+                <div class="form-group"><label>Giá niêm yết (VNĐ)</label><input type="text" id="in-gia-niem-yet" class="input-readonly" readonly style="color:#2b6cb0 !important;"></div>
+                <div class="form-group"><label>Tổng chiết khấu (VNĐ)</label><input type="text" id="in-tong-ck" class="input-readonly" readonly style="color:#e53e3e !important;"></div>
+                <div class="form-group"><label>Tháng bắt đầu DT</label><input type="number" id="in-thang-bg" class="input-readonly" readonly></div>
+                <div class="form-group"><label>Năm bắt đầu DT</label><input type="number" id="in-nam-bg" class="input-readonly" readonly></div>
                 <div class="form-group" style="grid-column: span 2;">
-                    <label>Số tháng liệt kê chi tiết <span style="font-weight:normal; color:#d53f8c;"></span></label>
+                    <label>Số tháng liệt kê chi tiết <span style="font-weight:normal; color:#d53f8c;">(Khóa tự động tới đợt thanh toán cuối)</span></label>
                     <input type="number" id="in-thang-gcn" class="input-readonly" readonly>
                 </div>
             </div>
         </div>
         <div class="data-panel">
-            <h3>📊 Thông số</h3>
+            <h3>📊 Thông số giả định (Nhập tay)</h3>
             <div class="grid-2">
-                <div class="form-group"><label>Giá phòng TB/đêm (VNĐ)</label><input type="number" id="in-gia-phong" value="3800000"></div>
+                <div class="form-group"><label>Giá phòng/đêm (VNĐ)</label><input type="number" id="in-gia-phong" value="2000000"></div>
                 <div class="form-group"><label>Số đêm TB/tháng</label><input type="number" id="in-ngay-tb" value="30"></div>
-                <div class="form-group"><label>OCC Thấp điểm (%) <span style="font-weight:normal">(Tháng 11-Tháng 2)</span></label><input type="number" id="in-occ-thap" value="45"></div>
-                <div class="form-group"><label>OCC Cao điểm (%) <span style="font-weight:normal">(Tháng 3-Tháng 10)</span></label><input type="number" id="in-occ-cao" value="85"></div>
+                <div class="form-group"><label>OCC Thấp điểm (%) <span style="font-weight:normal">(Th.11-Th.2)</span></label><input type="number" id="in-occ-thap" value="40"></div>
+                <div class="form-group"><label>OCC Cao điểm (%) <span style="font-weight:normal">(Th.3-Th.10)</span></label><input type="number" id="in-occ-cao" value="80"></div>
             </div>
         </div>
     </div>
 
-    <button class="btn-calc no-print" onclick="showResults()">DÒNG TIỀN KINH DOANH BÁN PHÒNG DỰ KIẾN (trong thời gian 24 tháng)</button>
+    <button class="btn-calc no-print" onclick="showResults()">TÍNH DÒNG THU BÁN PHÒNG</button>
 
     <div id="result-area">
         <table id="table-cashflow">
             <thead><tr><th style="width: 25%">Thời gian</th><th style="width: 20%">Số đêm (OCC)</th><th style="width: 25%">Doanh thu dự kiến</th><th style="width: 30%">Ghi chú</th></tr></thead>
             <tbody id="tbody-cashflow"></tbody>
-            <tfoot><tr class="bg-yellow"><td colspan="2" class="text-right">Tổng doanh thu dự kiến 24 tháng:</td><td class="text-right text-red" id="out-total-dt"></td><td></td></tr></tfoot>
+            <tfoot><tr class="bg-yellow"><td colspan="2" class="text-right">Tổng số doanh thu bán phòng 24 tháng:</td><td class="text-right text-red" id="out-total-dt"></td><td></td></tr></tfoot>
         </table>
         
-        <h3 style="text-align:center; color:#1a365d; margin: 15px 0 10px 0; font-size: 16px;"> DÒNG TIỀN KINH DOANH BÁN PHÒNG</h3>
+        <h3 style="text-align:center; color:#1a365d; margin: 15px 0 10px 0; font-size: 16px;">TỔNG KẾT HIỆU QUẢ DÒNG TIỀN TẠI FLAMINGO CÁT BÀ</h3>
         <table>
             <tbody>
                 <tr><td class="text-left">Giá niêm yết Căn hộ (đã bao gồm VAT)</td><td class="text-right" id="res-gia-ny"></td></tr>
                 <tr style="background:#f7fafc"><td class="text-left" style="font-style:italic">Tổng các khoản chiết khấu</td><td class="text-right" id="res-ck"></td></tr>
                 <tr><td class="text-left" style="color:#2b6cb0;"><strong>GIÁ BÁN SAU CHIẾT KHẤU</strong></td><td class="text-right" style="color:#2b6cb0; font-size:16px" id="res-gia-sau-ck"></td></tr>
-                <tr class="bg-yellow"><td class="text-left"><strong style="color:#c53030; font-size:16px">TỔNG DOANH THU BÁN PHÒNG TRONG 24 THÁNG</strong></td><td class="text-right text-red" id="res-dt" style="font-size:18px"></td></tr>
+                <tr class="bg-yellow"><td class="text-left"><strong style="color:#c53030; font-size:16px">TỔNG DOANH THU BÁN PHÒNG (24 THÁNG)</strong></td><td class="text-right text-red" id="res-dt" style="font-size:18px"></td></tr>
             </tbody>
         </table>
 
@@ -140,12 +191,12 @@
     }
 
     function showResults() {
-        calculateROI();
+        calculateCashFlow();
         document.getElementById('result-area').style.display = 'block';
         window.scrollTo({ top: document.getElementById('result-area').offsetTop - 20, behavior: 'smooth' });
     }
 
-    function calculateROI() {
+    function calculateCashFlow() {
         const giaNY = Number(document.getElementById('in-gia-niem-yet').value.replace(/[^0-9]/g, '')) || 0;
         const ck = Number(document.getElementById('in-tong-ck').value.replace(/[^0-9]/g, '')) || 0;
         const giaSauCK = giaNY - ck; 
@@ -230,9 +281,20 @@
             let realCK = data.tongChietKhau !== undefined ? data.tongChietKhau : (data.tongCK || 0);
             document.getElementById('in-tong-ck').value = fmt.format(realCK);
             
+            const giaSauCK = (data.giaNiemYet || 0) - realCK;
+            const von50 = Math.round(giaSauCK * 0.5);
+
+            // Gán dữ liệu vào bảng Highlight Lợi ích & 50%
+            document.getElementById('disp-gia-sau-ck').innerText = fmt.format(giaSauCK) + " VNĐ";
+            document.getElementById('disp-von-50').innerText = fmt.format(von50) + " VNĐ";
+            document.getElementById('disp-tong-ck').innerText = fmt.format(realCK) + " VNĐ";
+
             if(data.thangBG) document.getElementById('in-thang-bg').value = data.thangBG;
             if(data.namBG) document.getElementById('in-nam-bg').value = data.namBG;
             if(data.thangChoGCN !== undefined) document.getElementById('in-thang-gcn').value = data.thangChoGCN;
+
+            if(data.thangHDMB) document.getElementById('hdmb-month').value = data.thangHDMB;
+            if(data.namHDMB) document.getElementById('hdmb-year').value = data.namHDMB;
         }
     });
 </script>
