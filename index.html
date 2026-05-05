@@ -227,7 +227,7 @@
         <button class="btn-add" onclick="addCustomRow()">+ Thêm dòng chiết khấu</button>
     </div>
 
-    <button class="btn-main no-print" onclick="calculate()">TẠO PHIẾU TÍNH GIÁ</button>
+    <button class="btn-main no-print" onclick="calculate(false)">TẠO PHIẾU TÍNH GIÁ</button>
 
     <div id="result-box">
         <div style="text-align: center; display: none; margin-bottom: 30px;" id="print-title-area">
@@ -240,7 +240,7 @@
             
             <div class="action-buttons no-print">
                 <button class="btn-print" onclick="inPhieu()">🖨️ TẢI PDF / IN PHIẾU</button>
-                <button id="btn-goto-index2cb" class="btn-next" style="display: none;" onclick="transferToIndex2()">DÒNG THU BÁN PHÒNG</button>
+                <button id="btn-goto-index2" class="btn-next" style="display: none;" onclick="transferToIndex2()">DÒNG THU BÁN PHÒNG</button>
             </div>
         </div>
         
@@ -344,6 +344,9 @@
                 statusEl.innerHTML = "🟢 Kết nối dữ liệu thành công!";
                 statusEl.style.color = "green";
                 statusEl.style.background = "#f0fdf4";
+                
+                // --- PHỤC HỒI DỮ LIỆU FORM SAU KHI LOAD XONG JSON ---
+                restoreFormState();
             })
             .catch(err => {
                 statusEl.innerHTML = "🔴 Lỗi kết nối Data.json! Vui lòng đẩy file Data.json lên cùng thư mục GitHub.";
@@ -353,6 +356,75 @@
             
         checkSpecialConditions();
     }
+    
+    // Hàm phục hồi dữ liệu từ sessionStorage khi bấm Back về
+    function restoreFormState() {
+        const stateStr = sessionStorage.getItem('catba_form_state');
+        if (stateStr) {
+            try {
+                const state = JSON.parse(stateStr);
+                document.getElementById('fullname').value = state.fullname || '';
+                document.getElementById('apt-code').value = state.aptCode || '';
+                if (state.depositDate) document.getElementById('deposit-date').value = state.depositDate;
+                document.getElementById('apt-group').value = state.group || '1PN';
+                document.getElementById('payment-plan').value = state.plan || '36';
+                document.getElementById('pay50-first').checked = state.pay50 || false;
+                
+                if (state.mode) {
+                    document.querySelector(`input[name="calc-mode"][value="${state.mode}"]`).checked = true;
+                    toggleMode();
+                }
+                if (state.enableExtra !== undefined) {
+                    document.getElementById('enable-extra').checked = state.enableExtra;
+                    toggleExtraDetails();
+                }
+                
+                if (state.extraRows && state.extraRows.length > 0) {
+                    document.getElementById('extra-body').innerHTML = '';
+                    state.extraRows.forEach(r => {
+                        const row = `<tr>
+                            <td>
+                                <select class="ex-type" onchange="handleExTypeChange(this)">
+                                    <option value="percent" ${r.type==='percent'?'selected':''}>Tỷ lệ (%)</option>
+                                    <option value="amount" ${r.type==='amount'?'selected':''}>Số tiền (VNĐ)</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select class="ex-base" ${r.type==='amount'?'disabled':''}>
+                                    <option value="after-vat" ${r.base==='after-vat'?'selected':''}>Giá sau CK trước (Gồm VAT)</option>
+                                    <option value="before-vat" ${r.base==='before-vat'?'selected':''}>Giá sau CK trước (Chưa VAT)</option>
+                                </select>
+                            </td>
+                            <td><input type="number" class="ex-value" placeholder="Nhập giá trị..." step="0.1" value="${r.val}"></td>
+                            <td><button class="btn-remove" onclick="this.closest('tr').remove()">X</button></td>
+                        </tr>`;
+                        document.getElementById('extra-body').insertAdjacentHTML('beforeend', row);
+                    });
+                }
+
+                if (state.customRows && state.customRows.length > 0) {
+                    document.getElementById('custom-body').innerHTML = '';
+                    state.customRows.forEach(r => {
+                        const row = `<tr>
+                            <td><input type="text" class="c-name" placeholder="Lý do chiết khấu..." value="${r.name}"></td>
+                            <td><input type="number" class="c-rate" step="0.1" value="${r.val}"></td>
+                            <td><button class="btn-remove" onclick="this.closest('tr').remove()">X</button></td>
+                        </tr>`;
+                        document.getElementById('custom-body').insertAdjacentHTML('beforeend', row);
+                    });
+                }
+
+                checkSpecialConditions();
+                // Tự động load lại bảng tính toán, không bắn Google Sheets lần 2
+                if (state.aptCode) {
+                    calculate(true);
+                }
+            } catch (e) {
+                console.error("Lỗi phục hồi form:", e);
+            }
+        }
+    }
+
     initApp();
 
     function checkSpecialConditions() {
@@ -435,7 +507,7 @@
         return keyThucTe ? item[keyThucTe] : null;
     };
 
-    function calculate() {
+    function calculate(isAutoRestore = false) {
         const codeInput = document.getElementById('apt-code').value.toUpperCase().trim();
         const depositDate = document.getElementById('deposit-date').value;
         const khachHang = document.getElementById('fullname').value || "Khách lẻ";
@@ -456,6 +528,28 @@
         const plan = document.getElementById('payment-plan').value;
         let pay50 = document.getElementById('pay50-first').checked;
         if (group !== '2PN' || plan === '30') pay50 = false; 
+
+        // --- LƯU TRẠNG THÁI FORM VÀO BỘ NHỚ TẠM KHI BẤM NÚT ---
+        const formState = {
+            fullname: khachHang,
+            aptCode: codeInput,
+            depositDate: depositDate,
+            group: group,
+            plan: plan,
+            pay50: pay50,
+            mode: mode,
+            enableExtra: document.getElementById('enable-extra').checked,
+            extraRows: Array.from(document.querySelectorAll('#extra-body tr')).map(tr => ({
+                type: tr.querySelector('.ex-type').value,
+                base: tr.querySelector('.ex-base').value,
+                val: tr.querySelector('.ex-value').value
+            })),
+            customRows: Array.from(document.querySelectorAll('#custom-body tr')).map(tr => ({
+                name: tr.querySelector('.c-name').value,
+                val: tr.querySelector('.c-rate').value
+            }))
+        };
+        sessionStorage.setItem('catba_form_state', JSON.stringify(formState));
 
         let rawPriceStr = String(layGiaTriCot(apt, "gia_tien") || layGiaTriCot(apt, "gia_ban") || "0");
         let basePrice = Number(rawPriceStr.replace(/[^0-9]/g, '')) || 0;
@@ -533,9 +627,10 @@
 
         document.getElementById('result-box').style.display = 'block';
         document.getElementById('btn-goto-index2').style.display = 'inline-flex';
-        window.scrollTo({ top: document.getElementById('result-box').offsetTop, behavior: 'smooth' });
-
-        sendDataToSheet(khachHang, codeInput, basePrice, basePrice - currentPrice, currentPrice);
+        if(!isAutoRestore) {
+            window.scrollTo({ top: document.getElementById('result-box').offsetTop, behavior: 'smooth' });
+            sendDataToSheet(khachHang, codeInput, basePrice, basePrice - currentPrice, currentPrice);
+        }
     }
 
     function renderSchedule(group, plan, pay50, finalPrice, depositDateStr) {
@@ -549,6 +644,9 @@
         
         let stringNgayCoc = getFormattedDate(depositObj);
 
+        // --- CẬP NHẬT NOTE BÀN GIAO 50% ---
+        const note50HTML = `<br><i style="color:#d53f8c; font-size:13px; font-weight:bold;">* Nhận bàn giao quyền sử dụng căn hộ</i>`;
+
         if (plan === '30') {
             container.innerHTML = `
                 <div class="milestone-container">
@@ -558,7 +656,7 @@
                         Số tiền: <b style="color:#e53e3e">${formatMoney(deposit)}</b>
                     </div>
                     <div class="milestone">
-                        <strong style="font-size: 16px;">2. Trong vòng 30 ngày kể từ lúc cọc</strong><br>
+                        <strong style="font-size: 16px;">2. Trong vòng 30 ngày kể từ lúc cọc</strong>${note50HTML}<br>
                         Ngày dự kiến: <strong>${calculateDate(depositObj, 30)}</strong><br>
                         Thanh toán 95% GTCH (Đã bao gồm 100 triệu tiền cọc).<br>
                         👉 Số tiền đóng thêm đợt này: <b style="color:#2b6cb0; font-size: 18px;">${formatMoney((finalPrice * 0.95) - deposit)}</b>
@@ -576,7 +674,7 @@
         if (group === '2PN' && pay50) {
             if (plan === '12') {
                 steps = [
-                    {d: "Lần 1_Ngay khi ký HĐMB", t: "T (Dự kiến ký HĐMB)", daysFromT: 0, p: 0.50},
+                    {d: `Lần 1_Ngay khi ký HĐMB${note50HTML}`, t: "T (Dự kiến ký HĐMB)", daysFromT: 0, p: 0.50},
                     {d: "Lần 2_ Trong vòng 240 ngày kể từ ngày ký HĐMB", t: "T+240", daysFromT: 240, p: 0.10},
                     {d: "Lần 3_ Trong vòng 300 ngày kể từ ngày ký HĐMB", t: "T+300", daysFromT: 300, p: 0.10},
                     {d: "Lần 4_ Trong vòng 15 ngày kể từ ngày CĐT gửi thông báo bàn giao (dự kiến 12 tháng kể từ ngày ký HĐMB)", t: "T+360", daysFromT: 360, p: 0.25},
@@ -584,7 +682,7 @@
                 ];
             } else {
                 steps = [
-                    {d: "Lần 1_Ngay khi ký HĐMB", t: "T (Dự kiến ký HĐMB)", daysFromT: 0, p: 0.50},
+                    {d: `Lần 1_Ngay khi ký HĐMB${note50HTML}`, t: "T (Dự kiến ký HĐMB)", daysFromT: 0, p: 0.50},
                     {d: "Lần 2_ Trong vòng 360 ngày kể từ ngày ký HĐMB", t: "T+360", daysFromT: 360, p: 0.05},
                     {d: "Lần 3_ Trong vòng 540 ngày kể từ ngày ký HĐMB", t: "T+540", daysFromT: 540, p: 0.05},
                     {d: "Lần 4_ Trong vòng 720 ngày kể từ ngày ký HĐMB", t: "T+720", daysFromT: 720, p: 0.05},
@@ -599,7 +697,7 @@
                     {d: "Lần 1_Ngay khi ký HĐMB", t: "T (Dự kiến ký HĐMB)", daysFromT: 0, p: 0.20},
                     {d: "Lần 2_ Trong vòng 60 ngày kể từ ngày ký HĐMB", t: "T+60", daysFromT: 60, p: 0.10},
                     {d: "Lần 3_ Trong vòng 120 ngày kể từ ngày ký HĐMB", t: "T+120", daysFromT: 120, p: 0.10},
-                    {d: "Lần 4_ Trong vòng 180 ngày kể từ ngày ký HĐMB", t: "T+180", daysFromT: 180, p: 0.10},
+                    {d: `Lần 4_ Trong vòng 180 ngày kể từ ngày ký HĐMB${note50HTML}`, t: "T+180", daysFromT: 180, p: 0.10},
                     {d: "Lần 5_ Trong vòng 240 ngày kể từ ngày ký HĐMB", t: "T+240", daysFromT: 240, p: 0.10},
                     {d: "Lần 6_ Trong vòng 300 ngày kể từ ngày ký HĐMB", t: "T+300", daysFromT: 300, p: 0.10},
                     {d: "Lần 7_ Trong vòng 15 ngày kể từ ngày CĐT gửi thông báo bàn giao (dự kiến 12 tháng kể từ ngày ký HĐMB)", t: "T+360", daysFromT: 360, p: 0.25},
@@ -610,7 +708,7 @@
                     {d: "Lần 1_Ngay khi ký HĐMB", t: "T (Dự kiến ký HĐMB)", daysFromT: 0, p: 0.15},
                     {d: "Lần 2_ Trong vòng 90 ngày kể từ ngày ký HĐMB", t: "T+90", daysFromT: 90, p: 0.10},
                     {d: "Lần 3_ Trong vòng 120 ngày kể từ ngày ký HĐMB", t: "T+120", daysFromT: 120, p: 0.10},
-                    {d: "Lần 4_ Trong vòng 180 ngày kể từ ngày ký HĐMB", t: "T+180", daysFromT: 180, p: 0.15},
+                    {d: `Lần 4_ Trong vòng 180 ngày kể từ ngày ký HĐMB${note50HTML}`, t: "T+180", daysFromT: 180, p: 0.15},
                     {d: "Lần 5_ Trong vòng 360 ngày kể từ ngày ký HĐMB", t: "T+360", daysFromT: 360, p: 0.05},
                     {d: "Lần 6_ Trong vòng 540 ngày kể từ ngày ký HĐMB", t: "T+540", daysFromT: 540, p: 0.05},
                     {d: "Lần 7_ Trong vòng 720 ngày kể từ ngày ký HĐMB", t: "T+720", daysFromT: 720, p: 0.05},
@@ -698,7 +796,6 @@
         }, 500);
     }
 
-    // ĐÃ SỬA: Logic tính mốc thời gian 50% và Tên đường link trỏ sang file index2cb.html
     function transferToIndex2() {
         const originalPrice = Number(document.getElementById('out-price-raw').innerText.replace(/[^0-9]/g, '')) || 0;
         const finalPrice = Number(document.getElementById('out-price-final').innerText.replace(/[^0-9]/g, '')) || 0;
@@ -718,7 +815,6 @@
         let hdmbDate = new Date(depDate);
         hdmbDate.setDate(hdmbDate.getDate() + 10); 
 
-        // Tính ngày đạt 50%
         let date50 = new Date(hdmbDate); 
 
         if (plan === '30') {
@@ -727,11 +823,9 @@
         } else if (pay50) {
             date50 = new Date(hdmbDate);
         } else {
-            // Đợt thanh toán đủ 50% (Đợt 4) là T + 180 ngày
             date50.setDate(date50.getDate() + 180);
         }
 
-        // Ngày bắt đầu doanh thu là ngày Mùng 1 của tháng tiếp theo
         let revStartDate = new Date(date50.getFullYear(), date50.getMonth() + 1, 1);
 
         const calcCK = originalPrice - finalPrice;
@@ -749,8 +843,6 @@
         };
         
         localStorage.setItem('dataStep1', JSON.stringify(data));
-        
-        // ĐÃ SỬA: Phải khớp tuyệt đối với tên file bạn gửi
         window.location.href = 'index2cb.html'; 
     }
 </script>
