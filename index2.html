@@ -14,7 +14,6 @@
         .nav-back { color: #3182ce; text-decoration: none; font-weight: bold; padding: 6px 12px; border-radius: 4px; background: #ebf8ff; border: 1px solid #bee3f8; font-size: 14px;}
         .btn-print { background: #38a169; color: white; border: none; padding: 8px 16px; border-radius: 6px; font-weight: bold; cursor: pointer; font-size: 14px; }
         
-        /* Highlight 50% & Benefits */
         .lever-box { background: #fff5f5; border: 2px solid #feb2b2; padding: 20px; border-radius: 12px; margin-bottom: 25px; text-align: center; }
         .lever-title { color: #c53030; font-weight: bold; font-size: 18px; margin-bottom: 15px; text-transform: uppercase;}
         
@@ -163,10 +162,8 @@
     }
 
     function calculateCashFlow() {
-        // Lấy dữ liệu
         const giaSauCK = Number(document.getElementById('in-gia-sau-ck-hidden').value) || 0;
         
-        // Mốc thời gian được kéo trực tiếp từ index 1 (thangBG và namBG)
         const sMonth = parseInt(document.getElementById('in-thang-bg').value) || 1;
         const sYear = parseInt(document.getElementById('in-nam-bg').value) || 2026;
         
@@ -179,7 +176,6 @@
         let monthsData = [];
         let currM = sMonth, currY = sYear;
 
-        // Vòng lặp 24 tháng bắt đầu từ mốc 50%
         for (let i = 0; i < 24; i++) {
             let season = (currM >= 3 && currM <= 10) ? 'cao' : 'thap';
             let occ = (season === 'cao') ? oCao : oThap;
@@ -210,7 +206,6 @@
             tbody.innerHTML += `<tr><td>${g.start} - ${g.end}</td><td>${g.season === 'cao' ? 'Cao điểm' : 'Thấp điểm'} (${g.count} tháng)</td><td>${g.soDem * g.count} đêm</td><td class="text-right">${fmt.format(g.totalDt)}</td></tr>`;
         });
 
-        // Đổ dữ liệu tổng kết (Không có ROI)
         document.getElementById('out-total-dt').innerText = fmt.format(totalDT) + " VNĐ";
         document.getElementById('res-dt').innerText = fmt.format(totalDT) + " VNĐ";
     }
@@ -228,23 +223,19 @@
             document.getElementById('in-gia-ny').value = fmt.format(data.giaNiemYet);
             document.getElementById('in-tong-ck').value = fmt.format(realCK);
             
-            // Link trực tiếp tháng BG và năm BG từ index 1 sang
             document.getElementById('in-thang-bg').value = data.thangBG;
             document.getElementById('in-nam-bg').value = data.namBG;
 
             document.body.insertAdjacentHTML('beforeend', `<input type="hidden" id="in-gia-sau-ck-hidden" value="${giaSauCK}">`);
             
-            // Giao diện Lợi ích
             document.getElementById('disp-gia-sau-ck').innerText = fmt.format(giaSauCK) + " VNĐ";
             document.getElementById('disp-von-50').innerText = fmt.format(von50) + " VNĐ";
             document.getElementById('disp-tong-ck').innerText = fmt.format(realCK) + " VNĐ";
             
-            // Hiển thị mốc thời gian bắt đầu DT từ Index 1
             if(data.thangBG && data.namBG) {
                 document.getElementById('disp-thoi-diem-bg').innerText = `Tháng ${data.thangBG} / ${data.namBG}`;
             }
 
-            // Giao diện Tổng kết (Dưới cùng)
             document.getElementById('res-gia-ny').innerText = fmt.format(data.giaNiemYet) + " VNĐ";
             document.getElementById('res-ck').innerText = "- " + fmt.format(realCK) + " VNĐ";
             document.getElementById('res-gia-sau-ck').innerText = fmt.format(giaSauCK) + " VNĐ";
