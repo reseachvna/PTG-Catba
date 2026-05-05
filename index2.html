@@ -8,7 +8,7 @@
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; color: #333; line-height: 1.4; margin: 0; padding: 20px;}
         .container { max-width: 1100px; margin: 0 auto; background: #fff; padding: 25px 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
         h1 { color: #1a365d; text-align: center; margin: 0 0 5px 0; font-size: 22px; text-transform: uppercase; }
-        h2 { color: #4a5568; text-align: center; margin: 0 0 20px 0; font-size: 15px; font-weight: normal; }
+        h2 { color: #d53f8c; text-align: center; margin: 0 0 20px 0; font-size: 16px; font-weight: bold; }
         
         .header-actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
         .nav-back { color: #3182ce; text-decoration: none; font-weight: bold; padding: 6px 12px; border-radius: 4px; background: #ebf8ff; border: 1px solid #bee3f8; font-size: 14px;}
@@ -40,50 +40,29 @@
         
         table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 13px;}
         th, td { border: 1px solid #cbd5e0; padding: 8px 10px; text-align: center; }
-        th { background: #f7fafc; color: #1a365d;}
+        th { background: #1a365d; color: white;}
         .text-left { text-align: left; }
         .text-right { text-align: right; font-weight: bold; }
         .bg-yellow { background-color: #fffff0; }
         .text-red { color: #e53e3e; font-weight: bold; }
         
-        .btn-calc { background: #d53f8c; color: white; border: none; padding: 10px 30px; font-size: 15px; font-weight: bold; border-radius: 30px; cursor: pointer; display: block; margin: 0 auto 20px auto; }
+        .btn-calc { background: #d53f8c; color: white; border: none; padding: 12px 40px; font-size: 16px; font-weight: bold; border-radius: 30px; cursor: pointer; display: block; margin: 0 auto 20px auto; transition: 0.3s;}
+        .btn-calc:hover { transform: scale(1.05); background: #b83280;}
 
         #result-area { display: none; } 
         
         .copyright-footer { text-align: right; margin-top: 20px; border-top: 1px dashed #cbd5e0; padding-top: 10px; font-size: 12px; color: #a0aec0; font-style: italic; }
-        .copyright-footer strong { color: #4a5568; font-weight: bold; font-style: normal;}
 
         @page { size: A4 portrait; margin: 10mm 10mm; }
         @media print { 
             .no-print { display: none !important; } 
             body { background: #fff; padding: 0; font-size: 11px; line-height: 1.3; color: #000; }
             .container { box-shadow: none; padding: 0; border: none; max-width: 100%; width: 100%; margin: 0;} 
-            h1 { font-size: 18px; margin-bottom: 2px; }
-            h2 { font-size: 14px; margin-bottom: 12px; }
             .lever-box { border: 1px solid #999; background: #fff !important; padding: 10px; }
             .benefits-list { border: 1px solid #ccc; background: #f9f9f9; padding: 10px; }
             .lever-item { border: 1px solid #eee; box-shadow: none; }
-            .top-panels { gap: 10px; margin-bottom: 10px; }
-            .data-panel { padding: 8px; border: 1px solid #ccc; background-color: #fff !important; margin-bottom: 5px; }
-            .data-panel h3 { font-size: 13px; margin-bottom: 5px; padding-bottom: 4px; }
-            .form-group label { font-size: 11px; margin-bottom: 2px; }
-            .form-group input { border: none !important; padding: 0; font-size: 12px; background: transparent; color: #000;}
-            table { margin-bottom: 10px; font-size: 11px; }
-            th, td { padding: 4px 6px; color: #000; border-color: #999;}
-            .copyright-footer { color: #666; border-top: 1px solid #999; margin-top: 10px; padding-top: 5px; }
-            tr { page-break-inside: avoid; }
-        }
-        
-        @media screen and (max-width: 768px) {
-            body { padding: 10px; }
-            .container { padding: 20px; margin: 0; }
-            h1 { font-size: 18px; }
-            .top-panels { grid-template-columns: 1fr; gap: 15px; }
-            .grid-2 { grid-template-columns: 1fr; gap: 10px; }
-            .form-group { grid-column: span 1 !important; }
-            .header-actions { flex-direction: column; gap: 15px; align-items: stretch; text-align: center; }
-            .btn-calc { width: 100%; padding: 12px; font-size: 15px; }
-            table { display: block; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; }
+            th { background: #eee !important; color: #000 !important; border: 1px solid #999 !important;}
+            td { border: 1px solid #999 !important; }
         }
     </style>
 </head>
@@ -94,11 +73,8 @@
         <button class="btn-print" onclick="window.print()">🖨️ TẢI PDF / IN PHIẾU</button>
     </div>
 
-    <h1>HIệu quả dòng tiền kinh doanh</h1>
+    <h1>Hiệu quả dòng tiền kinh doanh</h1>
     <h2>BÀI TOÁN TỐI ƯU VỐN 50% - NHẬN QUYỀN SỬ DỤNG CĂN HỘ</h2>
-
-    <input type="hidden" id="hdmb-month" value="">
-    <input type="hidden" id="hdmb-year" value="">
 
     <div class="lever-box">
         <div class="lever-title">Nhận nhà ngay chỉ với 50% vốn tự có</div>
@@ -107,7 +83,7 @@
             <h4>🔥 TỔNG HỢP ĐẶC QUYỀN VÀ LỢI ÍCH KHÁCH HÀNG</h4>
             <ul>
                 <li><strong>Giá trị chiết khấu nhận được:</strong> <span id="disp-tong-ck" style="color: #e53e3e; font-weight: bold; font-size: 15px;">0 VNĐ</span> (Đã được giảm trực tiếp vào giá bán).</li>
-                <li><strong>Đặc quyền nhận nhà sớm:</strong> Khách hàng thanh toán <strong style="color: #d53f8c;">50% giá trị HĐMB</strong> đã được nhận bàn giao quyền sử dụng căn hộ.</li>
+                <li><strong>Đặc quyền nhận nhà sớm:</strong> Khách hàng hoàn thành <strong>Đợt thanh toán (Đóng đủ 50% GTSP)</strong> đã được nhận bàn giao quyền sử dụng để đưa vào vận hành ngay.</li>
                 <li><strong>Tối ưu dòng tiền:</strong> Hưởng trọn vẹn doanh thu khai thác kinh doanh trong <strong style="color: #38a169;">2 năm đầu với chính sách Miễn phí dịch vụ vận hành</strong>.</li>
             </ul>
         </div>
@@ -122,29 +98,22 @@
                 <span class="lever-val" id="disp-von-50" style="color:#d53f8c;">0 VNĐ</span>
             </div>
             <div class="lever-item">
-                <span class="lever-label">Thời hạn nộp vốn</span>
-                <span class="lever-val">Trong 180 ngày</span>
+                <span class="lever-label">Thời điểm bắt đầu kinh doanh</span>
+                <span class="lever-val" id="disp-thoi-diem-bg" style="color:#2b6cb0;">Chờ đồng bộ...</span>
             </div>
         </div>
-        <p style="margin-top: 15px; font-size: 13px; color: #666; font-style: italic;">
-            * Khách hàng được nhận bàn giao Quyền sử dụng căn hộ để đưa vào vận hành ngay khi hoàn thành 50% giá trị HĐMB.
-        </p>
     </div>
 
     <div class="top-panels">
         <div class="data-panel" style="background-color: #f7fafc;">
-            <h3>🔗 Dữ liệu liên kết (Đồng bộ từ PTTT)</h3>
+            <h3>🔗 Dữ liệu liên kết (Đồng bộ từ Index 1)</h3>
             <div class="grid-2">
-                <div class="form-group"><label>Khách hàng</label><input type="text" id="in-ten-kh" class="input-readonly" readonly placeholder="Trống"></div>
-                <div class="form-group"><label>Mã căn hộ</label><input type="text" id="in-ma-can" class="input-readonly" readonly placeholder="Trống"></div>
-                <div class="form-group"><label>Giá niêm yết (VNĐ)</label><input type="text" id="in-gia-niem-yet" class="input-readonly" readonly style="color:#2b6cb0 !important;"></div>
+                <div class="form-group"><label>Khách hàng</label><input type="text" id="in-ten-kh" class="input-readonly" readonly></div>
+                <div class="form-group"><label>Mã căn hộ</label><input type="text" id="in-ma-can" class="input-readonly" readonly></div>
+                <div class="form-group"><label>Giá niêm yết (VNĐ)</label><input type="text" id="in-gia-ny" class="input-readonly" readonly style="color:#2b6cb0 !important;"></div>
                 <div class="form-group"><label>Tổng chiết khấu (VNĐ)</label><input type="text" id="in-tong-ck" class="input-readonly" readonly style="color:#e53e3e !important;"></div>
-                <div class="form-group"><label>Tháng bắt đầu DT</label><input type="number" id="in-thang-bg" class="input-readonly" readonly></div>
-                <div class="form-group"><label>Năm bắt đầu DT</label><input type="number" id="in-nam-bg" class="input-readonly" readonly></div>
-                <div class="form-group" style="grid-column: span 2;">
-                    <label>Số tháng liệt kê chi tiết <span style="font-weight:normal; color:#d53f8c;">(Khóa tự động tới đợt thanh toán cuối)</span></label>
-                    <input type="number" id="in-thang-gcn" class="input-readonly" readonly>
-                </div>
+                <div class="form-group"><label>Tháng bắt đầu vận hành</label><input type="number" id="in-thang-bg" class="input-readonly" readonly></div>
+                <div class="form-group"><label>Năm bắt đầu vận hành</label><input type="number" id="in-nam-bg" class="input-readonly" readonly></div>
             </div>
         </div>
         <div class="data-panel">
@@ -152,28 +121,29 @@
             <div class="grid-2">
                 <div class="form-group"><label>Giá phòng/đêm (VNĐ)</label><input type="number" id="in-gia-phong" value="2000000"></div>
                 <div class="form-group"><label>Số đêm TB/tháng</label><input type="number" id="in-ngay-tb" value="30"></div>
-                <div class="form-group"><label>OCC Thấp điểm (%) <span style="font-weight:normal">(Th.11-Th.2)</span></label><input type="number" id="in-occ-thap" value="40"></div>
-                <div class="form-group"><label>OCC Cao điểm (%) <span style="font-weight:normal">(Th.3-Th.10)</span></label><input type="number" id="in-occ-cao" value="80"></div>
+                <div class="form-group"><label>OCC Thấp điểm (%)</label><input type="number" id="in-occ-thap" value="40"></div>
+                <div class="form-group"><label>OCC Cao điểm (%)</label><input type="number" id="in-occ-cao" value="80"></div>
             </div>
         </div>
     </div>
 
-    <button class="btn-calc no-print" onclick="showResults()">TÍNH DÒNG THU BÁN PHÒNG</button>
+    <button class="btn-calc no-print" onclick="showResults()">TÍNH DÒNG THU BÁN PHÒNG (KHÔNG TÍNH ROI)</button>
 
     <div id="result-area">
+        <h3 style="color:#1a365d; font-size: 16px; margin-bottom: 10px;">📅 CHI TIẾT DÒNG THU TRONG 24 THÁNG MIỄN PHÍ DỊCH VỤ</h3>
         <table id="table-cashflow">
-            <thead><tr><th style="width: 25%">Thời gian</th><th style="width: 20%">Số đêm (OCC)</th><th style="width: 25%">Doanh thu dự kiến</th><th style="width: 30%">Ghi chú</th></tr></thead>
+            <thead><tr><th>Giai đoạn</th><th>Mùa vụ</th><th>Số đêm khai thác</th><th>Doanh thu dự kiến</th></tr></thead>
             <tbody id="tbody-cashflow"></tbody>
-            <tfoot><tr class="bg-yellow"><td colspan="2" class="text-right">Tổng số doanh thu bán phòng 24 tháng:</td><td class="text-right text-red" id="out-total-dt"></td><td></td></tr></tfoot>
+            <tfoot><tr class="bg-yellow"><td colspan="3" class="text-right">TỔNG DOANH THU 24 THÁNG ĐẦU:</td><td class="text-right text-red" id="out-total-dt"></td></tr></tfoot>
         </table>
         
-        <h3 style="text-align:center; color:#1a365d; margin: 15px 0 10px 0; font-size: 16px;">TỔNG KẾT HIỆU QUẢ DÒNG TIỀN TẠI FLAMINGO CÁT BÀ</h3>
-        <table>
+        <h3 style="text-align:center; color:#1a365d; margin: 25px 0 10px 0; font-size: 18px;">TỔNG KẾT DÒNG TIỀN 24 THÁNG </h3>
+        <table style="width: 80%; margin: 0 auto;">
             <tbody>
-                <tr><td class="text-left">Giá niêm yết Căn hộ (đã bao gồm VAT)</td><td class="text-right" id="res-gia-ny"></td></tr>
-                <tr style="background:#f7fafc"><td class="text-left" style="font-style:italic">Tổng các khoản chiết khấu</td><td class="text-right" id="res-ck"></td></tr>
-                <tr><td class="text-left" style="color:#2b6cb0;"><strong>GIÁ BÁN SAU CHIẾT KHẤU</strong></td><td class="text-right" style="color:#2b6cb0; font-size:16px" id="res-gia-sau-ck"></td></tr>
-                <tr class="bg-yellow"><td class="text-left"><strong style="color:#c53030; font-size:16px">TỔNG DOANH THU BÁN PHÒNG (24 THÁNG)</strong></td><td class="text-right text-red" id="res-dt" style="font-size:18px"></td></tr>
+                <tr><td class="text-left" style="padding: 12px;">Giá bán niêm yết</td><td class="text-right" id="res-gia-ny"></td></tr>
+                <tr style="background:#fff5f5"><td class="text-left" style="padding: 12px;">Tổng chiết khấu áp dụng</td><td class="text-right" id="res-ck" style="color:#e53e3e"></td></tr>
+                <tr><td class="text-left" style="color:#2b6cb0; padding: 12px;"><strong>GIÁ BÁN SAU CHIẾT KHẤU</strong></td><td class="text-right" style="color:#2b6cb0; font-size:16px" id="res-gia-sau-ck"></td></tr>
+                <tr class="bg-yellow"><td class="text-left" style="padding: 12px;"><strong style="color:#c53030; font-size:16px">TỔNG DOANH THU KHAI THÁC (24 THÁNG)</strong></td><td class="text-right text-red" id="res-dt" style="font-size:18px"></td></tr>
             </tbody>
         </table>
 
@@ -186,10 +156,6 @@
 <script>
     const fmt = new Intl.NumberFormat('vi-VN');
 
-    function getSeason(month) {
-        return (month >= 3 && month <= 10) ? 'cao' : 'thap';
-    }
-
     function showResults() {
         calculateCashFlow();
         document.getElementById('result-area').style.display = 'block';
@@ -197,75 +163,55 @@
     }
 
     function calculateCashFlow() {
-        const giaNY = Number(document.getElementById('in-gia-niem-yet').value.replace(/[^0-9]/g, '')) || 0;
-        const ck = Number(document.getElementById('in-tong-ck').value.replace(/[^0-9]/g, '')) || 0;
-        const giaSauCK = giaNY - ck; 
+        // Lấy dữ liệu
+        const giaSauCK = Number(document.getElementById('in-gia-sau-ck-hidden').value) || 0;
         
-        const sMonth = parseInt(document.getElementById('in-thang-bg').value) || 11;
+        // Mốc thời gian được kéo trực tiếp từ index 1 (thangBG và namBG)
+        const sMonth = parseInt(document.getElementById('in-thang-bg').value) || 1;
         const sYear = parseInt(document.getElementById('in-nam-bg').value) || 2026;
-        const gapGCN = parseInt(document.getElementById('in-thang-gcn').value) || 0; 
         
         const gPhong = parseFloat(document.getElementById('in-gia-phong').value) || 0;
         const oThap = (parseFloat(document.getElementById('in-occ-thap').value) || 0) / 100;
         const oCao = (parseFloat(document.getElementById('in-occ-cao').value) || 0) / 100;
         const nTB = parseInt(document.getElementById('in-ngay-tb').value) || 0;
 
+        let totalDT = 0;
         let monthsData = [];
         let currM = sMonth, currY = sYear;
 
+        // Vòng lặp 24 tháng bắt đầu từ mốc 50%
         for (let i = 0; i < 24; i++) {
-            let season = getSeason(currM);
+            let season = (currM >= 3 && currM <= 10) ? 'cao' : 'thap';
             let occ = (season === 'cao') ? oCao : oThap;
             let soDem = Math.round(nTB * occ);
-            
-            monthsData.push({ thang: currM, nam: currY, season: season, soDem: soDem, doanhThu: soDem * gPhong });
+            let dt = soDem * gPhong;
+            monthsData.push({ m: currM, y: currY, season: season, soDem: soDem, dt: dt });
+            totalDT += dt;
             currM++; if (currM > 12) { currM = 1; currY++; }
         }
 
-        let groupedData = [];
-        let tempGroup = [];
-
-        monthsData.forEach((item, index) => {
-            if (index < gapGCN) {
-                if (tempGroup.length > 0) { groupedData.push([...tempGroup]); tempGroup = []; }
-                groupedData.push([item]);
-            } else {
-                if (tempGroup.length === 0) { tempGroup.push(item); } 
-                else {
-                    if (item.season === tempGroup[tempGroup.length - 1].season) { tempGroup.push(item); } 
-                    else { groupedData.push([...tempGroup]); tempGroup = [item]; }
-                }
-            }
-        });
-        if (tempGroup.length > 0) groupedData.push([...tempGroup]);
-
         const tbody = document.getElementById('tbody-cashflow');
         tbody.innerHTML = '';
-        let totalDT = 0;
+        let currentGroup = null;
+        let groups = [];
 
-        groupedData.forEach((group, index) => {
-            if (group.length === 1) {
-                let m = group[0];
-                totalDT += m.doanhThu;
-                let note = "Khai thác theo tiến độ đóng tiền";
-                if (monthsData.indexOf(m) === gapGCN - 1 && gapGCN > 0) {
-                    note = "<strong style='color:#d53f8c'>Tháng đóng đợt cuối (Nhận sổ)</strong>";
-                }
-                tbody.innerHTML += `<tr><td>Tháng ${m.thang}/${m.nam}</td><td>${m.soDem}</td><td class="text-right">${fmt.format(m.doanhThu)}</td><td style="font-size:12px; color:#666">${note}</td></tr>`;
+        monthsData.forEach(item => {
+            if (!currentGroup || currentGroup.season !== item.season) {
+                currentGroup = { start: `Th.${item.m}/${item.y}`, end: `Th.${item.m}/${item.y}`, season: item.season, count: 1, totalDt: item.dt, soDem: item.soDem };
+                groups.push(currentGroup);
             } else {
-                let firstM = group[0], lastM = group[group.length - 1];
-                let nMonths = group.length;
-                let gDT = firstM.doanhThu * nMonths;
-                totalDT += gDT;
-                let note = (index === groupedData.length - 1) ? "Hết 24 tháng miễn phí DV" : "Gộp các tháng cùng mùa";
-                tbody.innerHTML += `<tr><td>Từ Th.${firstM.thang}/${firstM.nam} đến Th.${lastM.thang}/${lastM.nam}</td><td>${firstM.soDem * nMonths} <br><span style="font-size:11px">(${firstM.soDem}x${nMonths})</span></td><td class="text-right">${fmt.format(gDT)}</td><td style="font-size:12px; color:#666">${note}</td></tr>`;
+                currentGroup.end = `Th.${item.m}/${item.y}`;
+                currentGroup.count++;
+                currentGroup.totalDt += item.dt;
             }
         });
 
-        document.getElementById('out-total-dt').innerText = fmt.format(totalDT);
-        document.getElementById('res-gia-ny').innerText = fmt.format(giaNY);
-        document.getElementById('res-ck').innerText = fmt.format(ck);
-        document.getElementById('res-gia-sau-ck').innerText = fmt.format(giaSauCK);
+        groups.forEach(g => {
+            tbody.innerHTML += `<tr><td>${g.start} - ${g.end}</td><td>${g.season === 'cao' ? 'Cao điểm' : 'Thấp điểm'} (${g.count} tháng)</td><td>${g.soDem * g.count} đêm</td><td class="text-right">${fmt.format(g.totalDt)}</td></tr>`;
+        });
+
+        // Đổ dữ liệu tổng kết (Không có ROI)
+        document.getElementById('out-total-dt').innerText = fmt.format(totalDT) + " VNĐ";
         document.getElementById('res-dt').innerText = fmt.format(totalDT) + " VNĐ";
     }
 
@@ -273,28 +219,35 @@
         const saved = localStorage.getItem('dataStep1');
         if (saved) {
             const data = JSON.parse(saved);
-            
-            if(data.khachHang) document.getElementById('in-ten-kh').value = data.khachHang;
-            if(data.maCan) document.getElementById('in-ma-can').value = data.maCan;
-
-            document.getElementById('in-gia-niem-yet').value = fmt.format(data.giaNiemYet || 0);
-            let realCK = data.tongChietKhau !== undefined ? data.tongChietKhau : (data.tongCK || 0);
-            document.getElementById('in-tong-ck').value = fmt.format(realCK);
-            
-            const giaSauCK = (data.giaNiemYet || 0) - realCK;
+            const realCK = data.tongChietKhau !== undefined ? data.tongChietKhau : (data.tongCK || 0);
+            const giaSauCK = data.giaNiemYet - realCK;
             const von50 = Math.round(giaSauCK * 0.5);
 
-            // Gán dữ liệu vào bảng Highlight Lợi ích & 50%
+            document.getElementById('in-ten-kh').value = data.khachHang || "";
+            document.getElementById('in-ma-can').value = data.maCan || "";
+            document.getElementById('in-gia-ny').value = fmt.format(data.giaNiemYet);
+            document.getElementById('in-tong-ck').value = fmt.format(realCK);
+            
+            // Link trực tiếp tháng BG và năm BG từ index 1 sang
+            document.getElementById('in-thang-bg').value = data.thangBG;
+            document.getElementById('in-nam-bg').value = data.namBG;
+
+            document.body.insertAdjacentHTML('beforeend', `<input type="hidden" id="in-gia-sau-ck-hidden" value="${giaSauCK}">`);
+            
+            // Giao diện Lợi ích
             document.getElementById('disp-gia-sau-ck').innerText = fmt.format(giaSauCK) + " VNĐ";
             document.getElementById('disp-von-50').innerText = fmt.format(von50) + " VNĐ";
             document.getElementById('disp-tong-ck').innerText = fmt.format(realCK) + " VNĐ";
+            
+            // Hiển thị mốc thời gian bắt đầu DT từ Index 1
+            if(data.thangBG && data.namBG) {
+                document.getElementById('disp-thoi-diem-bg').innerText = `Tháng ${data.thangBG} / ${data.namBG}`;
+            }
 
-            if(data.thangBG) document.getElementById('in-thang-bg').value = data.thangBG;
-            if(data.namBG) document.getElementById('in-nam-bg').value = data.namBG;
-            if(data.thangChoGCN !== undefined) document.getElementById('in-thang-gcn').value = data.thangChoGCN;
-
-            if(data.thangHDMB) document.getElementById('hdmb-month').value = data.thangHDMB;
-            if(data.namHDMB) document.getElementById('hdmb-year').value = data.namHDMB;
+            // Giao diện Tổng kết (Dưới cùng)
+            document.getElementById('res-gia-ny').innerText = fmt.format(data.giaNiemYet) + " VNĐ";
+            document.getElementById('res-ck').innerText = "- " + fmt.format(realCK) + " VNĐ";
+            document.getElementById('res-gia-sau-ck').innerText = fmt.format(giaSauCK) + " VNĐ";
         }
     });
 </script>
