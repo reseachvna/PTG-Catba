@@ -303,12 +303,12 @@
 
         const nameRegex = /^[\p{L}\s]+$/u;
         if (!nameRegex.test(name) || name.length < 2) {
-            return alert("⚠️ TÊN KHÔNG HỢP LỆ!\Vui lòng nhập đúng Họ và Tên (Không dùng số hoặc ký tự đặc biệt).");
+            return alert("⚠️ TÊN KHÔNG HỢP LỆ!\\nVui lòng nhập đúng Họ và Tên (Không dùng số hoặc ký tự đặc biệt).");
         }
 
         const phoneRegex = /^[a-zA-Z0-9]+$/;
         if (!phoneRegex.test(phone) || phone.length < 4 || phone.length > 15) {
-            return alert("⚠️ SĐT KHÔNG HỢP LỆ!\Vui lòng viết liền không dấu (Ví dụ: 0987654321).");
+            return alert("⚠️ SĐT KHÔNG HỢP LỆ!\\nVui lòng viết liền không dấu (Ví dụ: 0987654321).");
         }
 
         localStorage.setItem('saleInfo', JSON.stringify({ name: name, phone: phone }));
@@ -698,7 +698,7 @@
         }, 500);
     }
 
-    // --- CẬP NHẬT CHUẨN XÁC HÀM TRUYỀN DỮ LIỆU ---
+    // ĐÃ SỬA: Logic tính mốc thời gian 50% và Tên đường link trỏ sang file index2cb.html
     function transferToIndex2() {
         const originalPrice = Number(document.getElementById('out-price-raw').innerText.replace(/[^0-9]/g, '')) || 0;
         const finalPrice = Number(document.getElementById('out-price-final').innerText.replace(/[^0-9]/g, '')) || 0;
@@ -709,7 +709,7 @@
         const plan = document.getElementById('payment-plan').value;
         const group = document.getElementById('apt-group').value;
         let pay50 = document.getElementById('pay50-first').checked;
-        if (group !== '2PN' || plan === '30') pay50 = false; 
+        if (group !== '2PN' || plan === '30') pay50 = false;
 
         const depositDateStr = document.getElementById('deposit-date').value;
         let depDate = new Date();
@@ -718,22 +718,20 @@
         let hdmbDate = new Date(depDate);
         hdmbDate.setDate(hdmbDate.getDate() + 10); 
 
-        // logic tìm mốc thời gian đạt 50%
+        // Tính ngày đạt 50%
         let date50 = new Date(hdmbDate); 
 
         if (plan === '30') {
-            // Thanh toán nhanh: Đạt 95% (đã bao gồm 50%) trong 30 ngày từ ngày cọc
             date50 = new Date(depDate);
             date50.setDate(date50.getDate() + 30); 
         } else if (pay50) {
-            // Cam kết thanh toán 50% ngay đợt 1 (Ngày ký HĐMB)
             date50 = new Date(hdmbDate);
         } else {
-            // Tiến độ chuẩn 12T hoặc 36T: Đợt 4 (đủ 50%) là 180 ngày kể từ ngày ký HĐMB
+            // Đợt thanh toán đủ 50% (Đợt 4) là T + 180 ngày
             date50.setDate(date50.getDate() + 180);
         }
 
-        // Doanh thu tính từ mùng 1 của tháng tiếp theo sau mốc 50%
+        // Ngày bắt đầu doanh thu là ngày Mùng 1 của tháng tiếp theo
         let revStartDate = new Date(date50.getFullYear(), date50.getMonth() + 1, 1);
 
         const calcCK = originalPrice - finalPrice;
@@ -751,7 +749,9 @@
         };
         
         localStorage.setItem('dataStep1', JSON.stringify(data));
-        window.location.href = 'index2.html';
+        
+        // ĐÃ SỬA: Phải khớp tuyệt đối với tên file bạn gửi
+        window.location.href = 'index2cb.html'; 
     }
 </script>
 
