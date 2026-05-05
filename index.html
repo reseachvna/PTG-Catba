@@ -105,7 +105,7 @@
         <div class="form-group" style="margin-bottom: 15px; text-align:left;">
             <label>Tên chuyên viên tư vấn (*)</label>
             <input type="text" id="sale-name" placeholder="Ví dụ: Nguyễn Phương Anh">
-            <span style="font-size: 11px; color: #e53e3e; margin-top: 4px; font-style: italic;">* Yêu cầu nhập tên Sale tư vấn.</span>
+            <span style="font-size: 11px; color: #e53e3e; margin-top: 4px; font-style: italic;">* Yêu cầu nhập tên thật.</span>
         </div>
         <div class="form-group" style="margin-bottom: 25px; text-align:left;">
             <label>Số điện thoại (*)</label>
@@ -298,10 +298,9 @@
         const phone = document.getElementById('sale-phone').value.trim();
         
         if (!name || !phone) {
-            return alert("⚠️ Vui lòng nhập đầy đủ Tên và Số điện thoại");
+            return alert("⚠️ Vui lòng nhập đầy đủ Tên và Số điện thoại/Mã NV!");
         }
 
-// 2. Bộ lọc Tên chuẩn Unicode: Hỗ trợ 100% Tiếng Việt có dấu, cấm số và ký tự lạ
         const nameRegex = /^[\p{L}\s]+$/u;
         if (!nameRegex.test(name) || name.length < 2) {
             return alert("⚠️ TÊN KHÔNG HỢP LỆ!\Vui lòng nhập đúng Họ và Tên (Không dùng số hoặc ký tự đặc biệt).");
@@ -327,7 +326,6 @@
 
     // ===== KHỞI CHẠY APP =====
     function initApp() {
-        // Kiểm tra đăng nhập
         checkSalesLogin();
 
         const statusEl = document.getElementById('data-status');
@@ -537,7 +535,6 @@
         document.getElementById('btn-goto-index2').style.display = 'inline-flex';
         window.scrollTo({ top: document.getElementById('result-box').offsetTop, behavior: 'smooth' });
 
-        // GỬI DỮ LIỆU VỀ GOOGLE SHEETS
         sendDataToSheet(khachHang, codeInput, basePrice, basePrice - currentPrice, currentPrice);
     }
 
@@ -701,6 +698,7 @@
         }, 500);
     }
 
+    // --- CẬP NHẬT CHUẨN XÁC HÀM TRUYỀN DỮ LIỆU ---
     function transferToIndex2() {
         const originalPrice = Number(document.getElementById('out-price-raw').innerText.replace(/[^0-9]/g, '')) || 0;
         const finalPrice = Number(document.getElementById('out-price-final').innerText.replace(/[^0-9]/g, '')) || 0;
@@ -709,6 +707,10 @@
         const maCan = document.getElementById('out-code').innerText;
         
         const plan = document.getElementById('payment-plan').value;
+        const group = document.getElementById('apt-group').value;
+        let pay50 = document.getElementById('pay50-first').checked;
+        if (group !== '2PN' || plan === '30') pay50 = false; 
+
         const depositDateStr = document.getElementById('deposit-date').value;
         let depDate = new Date();
         if (depositDateStr) { depDate = new Date(depositDateStr); }
@@ -716,22 +718,23 @@
         let hdmbDate = new Date(depDate);
         hdmbDate.setDate(hdmbDate.getDate() + 10); 
 
-        let handoverDate = new Date(hdmbDate); 
-        let gap = 6;
+        // logic tìm mốc thời gian đạt 50%
+        let date50 = new Date(hdmbDate); 
 
         if (plan === '30') {
-            handoverDate = new Date(depDate);
-            handoverDate.setDate(handoverDate.getDate() + 30); 
-            gap = 1;
-        } else if (plan === '12') {
-            handoverDate.setDate(handoverDate.getDate() + 360);
-            gap = 6;
+            // Thanh toán nhanh: Đạt 95% (đã bao gồm 50%) trong 30 ngày từ ngày cọc
+            date50 = new Date(depDate);
+            date50.setDate(date50.getDate() + 30); 
+        } else if (pay50) {
+            // Cam kết thanh toán 50% ngay đợt 1 (Ngày ký HĐMB)
+            date50 = new Date(hdmbDate);
         } else {
-            handoverDate.setDate(handoverDate.getDate() + 1080);
-            gap = 6;
+            // Tiến độ chuẩn 12T hoặc 36T: Đợt 4 (đủ 50%) là 180 ngày kể từ ngày ký HĐMB
+            date50.setDate(date50.getDate() + 180);
         }
 
-        let revStartDate = new Date(handoverDate.getFullYear(), handoverDate.getMonth() + 1, 1);
+        // Doanh thu tính từ mùng 1 của tháng tiếp theo sau mốc 50%
+        let revStartDate = new Date(date50.getFullYear(), date50.getMonth() + 1, 1);
 
         const calcCK = originalPrice - finalPrice;
 
@@ -743,13 +746,12 @@
             tongCK: calcCK,
             thangBG: revStartDate.getMonth() + 1, 
             namBG: revStartDate.getFullYear(),
-            thangChoGCN: gap,
             thangHDMB: hdmbDate.getMonth() + 1,
             namHDMB: hdmbDate.getFullYear()
         };
         
         localStorage.setItem('dataStep1', JSON.stringify(data));
-        window.location.href = 'index2.html';
+        window.location.href = 'index2 - Cat ba.html';
     }
 </script>
 
